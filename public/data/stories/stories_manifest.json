@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "title": "Sayyiduna Ibrahim (AS)",
+    "arabicTitle": "سَيِّدُنَا إِبْرَاهِيمُ (عَلَيْهِ السَّلَامُ)",
+    "totalChapters": 16,
+    "chapters": [
+      {
+        "id": 1,
+        "file": "ch1.json",
+        "title": "بَائِعُ الأَصْنَامِ",
+        "translation": "The Seller of Idols",
+        "totalSentences": 9
+      },
+      {
+        "id": 2,
+        "file": "ch2.json",
+        "title": "وَلَدُ آزَرَ",
+        "translation": "The Son of Azar",
+        "totalSentences": 12
+      },
+      {
+        "id": 3,
+        "file": "ch3.json",
+        "title": "نَصِيحَةُ إِبْرَاهِيمَ",
+        "translation": "The Advice of Ibrahim",
+        "totalSentences": 9
+      },
+      {
+        "id": 4,
+        "file": "ch4.json",
+        "title": "إِبْرَاهِيمُ يَكْسِرُ الأَصْنَامَ",
+        "translation": "Ibrahim Breaks the Idols",
+        "totalSentences": 13
+      },
+      {
+        "id": 5,
+        "file": "ch5.json",
+        "title": "مَنْ فَعَلَ هَذَا؟",
+        "translation": "Who Did This?",
+        "totalSentences": 18
+      },
+      {
+        "id": 6,
+        "file": "ch6.json",
+        "title": "نَارٌ بَارِدَةٌ",
+        "translation": "A Cool Fire",
+        "totalSentences": 10
+      },
+      {
+        "id": 7,
+        "file": "ch7.json",
+        "title": "مَنْ رَبِّي؟",
+        "translation": "Who is My Lord?",
+        "totalSentences": 15
+      },
+      {
+        "id": 8,
+        "file": "ch8.json",
+        "title": "رَبِّيَ اللَّهُ",
+        "translation": "My Lord is Allah",
+        "totalSentences": 6
+      },
+      {
+        "id": 9,
+        "file": "ch9.json",
+        "title": "دَعْوَةُ إِبْرَاهِيمَ",
+        "translation": "The Call of Ibrahim",
+        "totalSentences": 12
+      },
+      {
+        "id": 10,
+        "file": "ch10.json",
+        "title": "أَمَامَ الْمَلِكِ",
+        "translation": "In Front of the King",
+        "totalSentences": 17
+      },
+      {
+        "id": 11,
+        "file": "ch11.json",
+        "title": "دَعْوَةُ الْوَالِدِ",
+        "translation": "Calling the Father",
+        "totalSentences": 9
+      },
+      {
+        "id": 12,
+        "file": "ch12.json",
+        "title": "إِلَى مَكَّةَ",
+        "translation": "To Makkah",
+        "totalSentences": 14
+      },
+      {
+        "id": 13,
+        "file": "ch13.json",
+        "title": "بِئْرُ زَمْزَمَ",
+        "translation": "The Well of Zamzam",
+        "totalSentences": 7
+      },
+      {
+        "id": 14,
+        "file": "ch14.json",
+        "title": "رُؤْيَا إِبْرَاهِيمَ",
+        "translation": "The Vision of Ibrahim",
+        "totalSentences": 18
+      },
+      {
+        "id": 15,
+        "file": "ch15.json",
+        "title": "الْكَعْبَةُ",
+        "translation": "The Ka'bah",
+        "totalSentences": 12
+      },
+      {
+        "id": 16,
+        "file": "ch16.json",
+        "title": "بَيْتُ الْمَقْدِسِ",
+        "translation": "Bayt al-Maqdis",
+        "totalSentences": 12
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sayyiduna Yusuf (AS)",
+    "arabicTitle": "سَيِّدُنَا يُوسُفُ (عَلَيْهِ السَّلَامُ)",
+    "totalChapters": 25,
+    "chapters": [
+      {
+        "id": 1,
+        "file": "ch1.json",
+        "title": "رُؤْيَا عَجِيبَةٌ",
+        "translation": "A Strange Dream",
+        "totalSentences": 20
+      },
+      {
+        "id": 2,
+        "file": "ch2.json",
+        "title": "حَسَدُ الْإِخْوَةِ",
+        "translation": "The Jealousy of the Brothers",
+        "totalSentences": 12
+      },
+      {
+        "id": 3,
+        "file": "ch3.json",
+        "title": "وَفْدٌ إِلَى يَعْقُوبَ",
+        "translation": "A Delegation to Ya'qub",
+        "totalSentences": 14
+      },
+      {
+        "id": 4,
+        "file": "ch4.json",
+        "title": "إِلَى الْغَابَةِ",
+        "translation": "To the Forest",
+        "totalSentences": 9
+      },
+      {
+        "id": 5,
+        "file": "ch5.json",
+        "title": "أَمَامَ يَعْقُوبَ",
+        "translation": "Before Ya'qub",
+        "totalSentences": 12
+      },
+      {
+        "id": 6,
+        "file": "ch6.json",
+        "title": "يُوسُفُ فِي الْبِئْرِ",
+        "translation": "Yusuf in the Well",
+        "totalSentences": 7
+      },
+      {
+        "id": 7,
+        "file": "ch7.json",
+        "title": "مِنَ الْبِئْرِ إِلَى الْقَصْرِ",
+        "translation": "From the Well to the Palace",
+        "totalSentences": 10
+      },
+      {
+        "id": 8,
+        "file": "ch8.json",
+        "title": "الْوَفَاءُ وَالْأَمَانَةُ",
+        "translation": "Faithfulness and Trust",
+        "totalSentences": 10
+      },
+      {
+        "id": 9,
+        "file": "ch9.json",
+        "title": "مَوْعِظَةُ السِّجْنِ",
+        "translation": "The Exhortation in the Prison",
+        "totalSentences": 17
+      },
+      {
+        "id": 10,
+        "file": "ch10.json",
+        "title": "حِكْمَةُ يُوسُفَ",
+        "translation": "The Wisdom of Yusuf",
+        "totalSentences": 8
+      },
+      {
+        "id": 11,
+        "file": "ch11.json",
+        "title": "مَوْعِظَةُ التَّوْحِيدِ",
+        "translation": "The Sermon of Monotheism (Tawhid)",
+        "totalSentences": 16
+      },
+      {
+        "id": 12,
+        "file": "ch12.json",
+        "title": "تَأْوِيلُ الرُّؤْيَا",
+        "translation": "The Interpretation of the Dream",
+        "totalSentences": 6
+      },
+      {
+        "id": 13,
+        "file": "ch13.json",
+        "title": "رُؤْيَا الْمَلِكِ",
+        "translation": "The King's Dream",
+        "totalSentences": 15
+      },
+      {
+        "id": 14,
+        "file": "ch14.json",
+        "title": "الْمَلِكُ يُرْسِلُ إِلَى يُوسُفَ",
+        "translation": "The King Sends for Yusuf",
+        "totalSentences": 5
+      },
+      {
+        "id": 15,
+        "file": "ch15.json",
+        "title": "يُوسُفُ يَسْأَلُ التَّفْتِيشَ",
+        "translation": "Yusuf Requests an Investigation",
+        "totalSentences": 9
+      },
+      {
+        "id": 16,
+        "file": "ch16.json",
+        "title": "عَلَى خَزَائِنِ الْأَرْضِ",
+        "translation": "Over the Storehouses of the Earth",
+        "totalSentences": 12
+      },
+      {
+        "id": 17,
+        "file": "ch17.json",
+        "title": "جَاءَ إِخْوَةُ يُوسُفَ",
+        "translation": "The Brothers of Yusuf Came",
+        "totalSentences": 9
+      },
+      {
+        "id": 18,
+        "file": "ch18.json",
+        "title": "بَيْنَ يُوسُفَ وَإِخْوَتِهِ",
+        "translation": "Between Yusuf and His Brothers",
+        "totalSentences": 19
+      },
+      {
+        "id": 19,
+        "file": "ch19.json",
+        "title": "بَيْنَ يَعْقُوبَ وَأَبْنَائِهِ",
+        "translation": "Between Ya'qub and His Sons",
+        "totalSentences": 9
+      },
+      {
+        "id": 20,
+        "file": "ch20.json",
+        "title": "بِنْيَامِينُ عِنْدَ يُوسُفَ",
+        "translation": "Binyamin With Yusuf",
+        "totalSentences": 22
+      },
+      {
+        "id": 21,
+        "file": "ch21.json",
+        "title": "إِلَى يَعْقُوبَ",
+        "translation": "To Ya'qub",
+        "totalSentences": 12
+      },
+      {
+        "id": 22,
+        "file": "ch22.json",
+        "title": "يَظْهَرُ السِّرُّ",
+        "translation": "The Secret is Revealed",
+        "totalSentences": 19
+      },
+      {
+        "id": 23,
+        "file": "ch23.json",
+        "title": "يُوسُفُ يُرْسِلُ إِلَى يَعْقُوبَ",
+        "translation": "Yusuf Sends for Ya'qub",
+        "totalSentences": 5
+      },
+      {
+        "id": 24,
+        "file": "ch24.json",
+        "title": "يَعْقُوبُ عِنْدَ يُوسُفَ",
+        "translation": "Ya'qub With Yusuf",
+        "totalSentences": 11
+      },
+      {
+        "id": 25,
+        "file": "ch25.json",
+        "title": "حُسْنُ الْعَاقِبَةِ",
+        "translation": "A Good End",
+        "totalSentences": 6
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sayyiduna Nooh (AS)",
+    "arabicTitle": "سَيِّدُنَا نُوحٌ (عَلَيْهِ السَّلَامُ)",
+    "totalChapters": 22,
+    "chapters": [
+      {
+        "id": 1,
+        "file": "ch1.json",
+        "title": "بَعْدَ آدَمَ",
+        "translation": "After Adam",
+        "totalSentences": 6
+      },
+      {
+        "id": 2,
+        "file": "ch2.json",
+        "title": "حَسَدُ الشَّيْطَانِ",
+        "translation": "The Envy of Shaytan",
+        "totalSentences": 6
+      },
+      {
+        "id": 3,
+        "file": "ch3.json",
+        "title": "فِكْرَةُ الشَّيْطَانِ",
+        "translation": "The Idea of Shaytan",
+        "totalSentences": 6
+      },
+      {
+        "id": 4,
+        "file": "ch4.json",
+        "title": "حِيلَةُ الشَّيْطَانِ",
+        "translation": "The Trick of Shaytan",
+        "totalSentences": 6
+      },
+      {
+        "id": 5,
+        "file": "ch5.json",
+        "title": "صُوَرُ الصَّالِحِينَ",
+        "translation": "The Pictures of the Righteous",
+        "totalSentences": 6
+      },
+      {
+        "id": 6,
+        "file": "ch6.json",
+        "title": "مِنَ الصُّوَرِ إِلَى التَّمَاثِيلِ",
+        "translation": "From Pictures to Statues",
+        "totalSentences": 6
+      },
+      {
+        "id": 7,
+        "file": "ch7.json",
+        "title": "مِنَ التَّمَاثِيلِ إِلَى الأَصْنَامِ",
+        "translation": "From Statues to Idols",
+        "totalSentences": 6
+      },
+      {
+        "id": 8,
+        "file": "ch8.json",
+        "title": "غَضَبُ اللَّهِ",
+        "translation": "The Anger of Allah",
+        "totalSentences": 6
+      },
+      {
+        "id": 9,
+        "file": "ch9.json",
+        "title": "الرَّسُولُ",
+        "translation": "The Messenger",
+        "totalSentences": 6
+      },
+      {
+        "id": 10,
+        "file": "ch10.json",
+        "title": "بَشَرٌ أَمْ مَلَكٌ",
+        "translation": "A Human or an Angel?",
+        "totalSentences": 6
+      },
+      {
+        "id": 11,
+        "file": "ch11.json",
+        "title": "نُوحٌ الرَّسُولُ",
+        "translation": "Nuh the Messenger",
+        "totalSentences": 6
+      },
+      {
+        "id": 12,
+        "file": "ch12.json",
+        "title": "مَاذَا أَجَابَهُ الْقَوْمُ",
+        "translation": "What His People Answered Him",
+        "totalSentences": 6
+      },
+      {
+        "id": 13,
+        "file": "ch13.json",
+        "title": "بَيْنَ نُوحٍ وَقَوْمِهِ",
+        "translation": "Between Nuh and His People",
+        "totalSentences": 6
+      },
+      {
+        "id": 14,
+        "file": "ch14.json",
+        "title": "اتَّبَعَكَ الأَرْذَلُونَ",
+        "translation": "The Lowest Followed You",
+        "totalSentences": 6
+      },
+      {
+        "id": 15,
+        "file": "ch15.json",
+        "title": "حُجَّةُ الأَغْنِيَاءِ",
+        "translation": "The Argument of the Rich",
+        "totalSentences": 6
+      },
+      {
+        "id": 16,
+        "file": "ch16.json",
+        "title": "دَعْوَةُ نُوحٍ",
+        "translation": "The Call of Nuh",
+        "totalSentences": 6
+      },
+      {
+        "id": 17,
+        "file": "ch17.json",
+        "title": "دُعَاءُ نُوحٍ",
+        "translation": "The Supplication of Nuh",
+        "totalSentences": 6
+      },
+      {
+        "id": 18,
+        "file": "ch18.json",
+        "title": "السَّفِينَةُ",
+        "translation": "The Ark",
+        "totalSentences": 6
+      },
+      {
+        "id": 19,
+        "file": "ch19.json",
+        "title": "الطُّوفَانُ",
+        "translation": "The Flood",
+        "totalSentences": 6
+      },
+      {
+        "id": 20,
+        "file": "ch20.json",
+        "title": "ابْنُ نُوحٍ",
+        "translation": "The Son of Nuh",
+        "totalSentences": 6
+      },
+      {
+        "id": 21,
+        "file": "ch21.json",
+        "title": "لَيْسَ مِنْ أَهْلِكَ",
+        "translation": "He Is Not of Your Family",
+        "totalSentences": 6
+      },
+      {
+        "id": 22,
+        "file": "ch22.json",
+        "title": "بَعْدَ الطُّوفَانِ",
+        "translation": "After the Flood",
+        "totalSentences": 6
+      }
+    ]
+  }
+]

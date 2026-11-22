@@ -1,0 +1,927 @@
+import { Chapter } from "../../../types/grammar";
+
+export const chapter23: Chapter = {
+  "id": 23,
+  "title": "يُوسُفُ يُرْسِلُ إِلَى يَعْقُوبَ",
+  "translation": "Yusuf Sends for Ya'qub",
+  "source": "Qisas an-Nabiyeen (Story 2: Sayyiduna Yusuf AS)",
+  "sentences": [
+    {
+      "id": "s2_c23_s1",
+      "order": 1,
+      "text": "وَاشْتَاقَ يُوسُفُ إِلَى لِقَاءِ يَعْقُوبَ، وَكَيْفَ لَا يَشْتَاقُ إِلَيْهِ وَقَدْ طَالَ الْفِرَاقُ! وَلِمَاذَا يَصْبِرُ وَقَدْ ظَهَرَ السِّرُّ؟",
+      "translation": "And Yusuf longed to meet Ya'qub; and how could he not long for him when the separation had lasted so long! And why should he be patient when the secret had been revealed?",
+      "tokens": [
+        "وَ",
+        "اشْتَاقَ",
+        "يُوسُفُ",
+        "إِلَى",
+        "لِقَاءِ",
+        "يَعْقُوبَ",
+        "وَ",
+        "كَيْفَ",
+        "لَا",
+        "يَشْتَاقُ",
+        "إِلَيْـ",
+        "ـهِ",
+        "وَ",
+        "قَدْ",
+        "طَالَ",
+        "الْفِرَاقُ",
+        "وَ",
+        "لِـ",
+        "ـمَاذَا",
+        "يَصْبِرُ",
+        "وَ",
+        "قَدْ",
+        "ظَهَرَ",
+        "السِّرُّ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c23_s1_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ اسْتِئْنَافٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s1_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s1_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s1_b4",
+          "span": [
+            3,
+            5
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s1_b5",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s1_b6",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "حَالٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c23_s1_b7",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s1_b8",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s1_b9",
+          "span": [
+            10,
+            11
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s1_b10",
+          "span": [
+            12,
+            13
+          ],
+          "roles": [
+            "وَاوُ الْحَالِ",
+            "حَرْفُ تَحْقِيقٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s1_b11",
+          "span": [
+            14,
+            14
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s1_b12",
+          "span": [
+            15,
+            15
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s1_b13",
+          "span": [
+            16,
+            16
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s1_b14",
+          "span": [
+            17,
+            18
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s1_b15",
+          "span": [
+            19,
+            19
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s1_b16",
+          "span": [
+            20,
+            21
+          ],
+          "roles": [
+            "وَاوُ الْحَالِ",
+            "حَرْفُ تَحْقِيقٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s1_b17",
+          "span": [
+            22,
+            22
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s1_b18",
+          "span": [
+            23,
+            23
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        }
+      ]
+    },
+    {
+      "id": "s2_c23_s2",
+      "order": 2,
+      "text": "وَكَيْفَ يَطِيبُ لَهُ الشَّرَابُ وَالطَّعَامُ وَأَبُوهُ لَا يَطِيبُ لَهُ شَرَابٌ وَلَا طَعَامٌ وَلَا مَنَامٌ.",
+      "translation": "And how could drink and food be pleasant to him when for his father neither drink, nor food, nor sleep was pleasant?",
+      "tokens": [
+        "وَ",
+        "كَيْفَ",
+        "يَطِيبُ",
+        "لَـ",
+        "ـهُ",
+        "الشَّرَابُ",
+        "وَ",
+        "الطَّعَامُ",
+        "وَ",
+        "أَبُو",
+        "ـهُ",
+        "لَا",
+        "يَطِيبُ",
+        "لَـ",
+        "ـهُ",
+        "شَرَابٌ",
+        "وَ",
+        "لَا",
+        "طَعَامٌ",
+        "وَ",
+        "لَا",
+        "مَنَامٌ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c23_s2_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s2_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "حَالٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c23_s2_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s2_b4",
+          "span": [
+            3,
+            4
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s2_b5",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s2_b6",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s2_b7",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "مَعْطُوفٌ"
+          ],
+          "category": "tawabi"
+        },
+        {
+          "id": "s2_c23_s2_b8",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "وَاوُ الْحَالِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s2_b9",
+          "span": [
+            9,
+            10
+          ],
+          "roles": [
+            "مُبْتَدَأٌ",
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s2_b10",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s2_b11",
+          "span": [
+            12,
+            12
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s2_b12",
+          "span": [
+            13,
+            14
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s2_b13",
+          "span": [
+            15,
+            15
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s2_b14",
+          "span": [
+            16,
+            17
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s2_b15",
+          "span": [
+            18,
+            18
+          ],
+          "roles": [
+            "مَعْطُوفٌ"
+          ],
+          "category": "tawabi"
+        },
+        {
+          "id": "s2_c23_s2_b16",
+          "span": [
+            19,
+            20
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s2_b17",
+          "span": [
+            21,
+            21
+          ],
+          "roles": [
+            "مَعْطُوفٌ"
+          ],
+          "category": "tawabi"
+        }
+      ]
+    },
+    {
+      "id": "s2_c23_s3",
+      "order": 3,
+      "text": "قَدِ انْكَشَفَ السِّرُّ، قَدْ ظَهَرَ السِّرُّ، وَقَدْ أَرَادَ اللَّهُ أَنْ تَقَرَّ عَيْنُ يَعْقُوبَ.",
+      "translation": "The secret was unveiled, the secret became apparent, and Allah willed that the eye of Ya'qub be comforted.",
+      "tokens": [
+        "قَدِ",
+        "انْكَشَفَ",
+        "السِّرُّ",
+        "قَدْ",
+        "ظَهَرَ",
+        "السِّرُّ",
+        "وَ",
+        "قَدْ",
+        "أَرَادَ",
+        "اللَّهُ",
+        "أَنْ",
+        "تَقَرَّ",
+        "عَيْنُ",
+        "يَعْقُوبَ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c23_s3_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ تَحْقِيقٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s3_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s3_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s3_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "حَرْفُ تَحْقِيقٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s3_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s3_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s3_b7",
+          "span": [
+            6,
+            7
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ",
+            "حَرْفُ تَحْقِيقٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s3_b8",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s3_b9",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s3_b10",
+          "span": [
+            10,
+            10
+          ],
+          "roles": [
+            "حَرْفٌ مَصْدَرِيٌّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s3_b11",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s3_b12",
+          "span": [
+            12,
+            12
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s3_b13",
+          "span": [
+            13,
+            13
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s3_b14",
+          "span": [
+            10,
+            13
+          ],
+          "roles": [
+            "مَصْدَرٌ مُؤَوَّلٌ",
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        }
+      ]
+    },
+    {
+      "id": "s2_c23_s4",
+      "order": 4,
+      "text": "وَكَانَ يَعْقُوبُ قَدْ عَمِيَ مِنْ كَثْرَةِ الْبُكَاءِ وَالْحُزْنِ.",
+      "translation": "And Ya'qub had become blind from excessive weeping and sorrow.",
+      "tokens": [
+        "وَ",
+        "كَانَ",
+        "يَعْقُوبُ",
+        "قَدْ",
+        "عَمِيَ",
+        "مِنْ",
+        "كَثْرَةِ",
+        "الْبُكَاءِ",
+        "وَ",
+        "الْحُزْنِ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c23_s4_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ اسْتِئْنَافٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s4_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c23_s4_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s4_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "حَرْفُ تَحْقِيقٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s4_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ",
+            "خَبَرُ كَانَ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s4_b6",
+          "span": [
+            5,
+            7
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s4_b7",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c23_s4_b8",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "مَعْطُوفٌ"
+          ],
+          "category": "tawabi"
+        }
+      ]
+    },
+    {
+      "id": "s2_c23_s5",
+      "order": 5,
+      "text": "فَقَالَ يُوسُفُ: ﴿اذْهَبُوا بِقَمِيصِي هٰذَا فَأَلْقُوهُ عَلَى وَجْهِ أَبِي يَأْتِ بَصِيرًا وَأْتُونِي بِأَهْلِكُمْ أَجْمَعِينَ﴾.",
+      "translation": "So Yusuf said: 'Go with this shirt of mine and cast it over my father's face, he will regain sight; and bring to me all your family together.'",
+      "tokens": [
+        "فَـ",
+        "ـقَالَ",
+        "يُوسُفُ",
+        "اذْهَبُوا",
+        "بِـ",
+        "ـقَمِيصِـ",
+        "ـي",
+        "هٰذَا",
+        "فَـ",
+        "ـأَلْقُو",
+        "ـهُ",
+        "عَلَى",
+        "وَجْهِ",
+        "أَبِـ",
+        "ـي",
+        "يَأْتِ",
+        "بَصِيرًا",
+        "وَ",
+        "أْتُو",
+        "ـنِي",
+        "بِـ",
+        "ـأَهْلِـ",
+        "ـكُمْ",
+        "أَجْمَعِينَ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c23_s5_b1",
+          "span": [
+            0,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s5_b2",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c23_s5_b3",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "فِعْلٌ وَفَاعِلٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s5_b4",
+          "span": [
+            4,
+            6
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s5_b5",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "بَدَلٌ"
+          ],
+          "category": "tawabi"
+        },
+        {
+          "id": "s2_c23_s5_b6",
+          "span": [
+            8,
+            10
+          ],
+          "roles": [
+            "فِعْلُ أَمْرٍ",
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s5_b7",
+          "span": [
+            11,
+            14
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s5_b8",
+          "span": [
+            15,
+            15
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s5_b9",
+          "span": [
+            16,
+            16
+          ],
+          "roles": [
+            "حَالٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c23_s5_b10",
+          "span": [
+            17,
+            19
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ",
+            "فِعْلُ أَمْرٍ",
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c23_s5_b11",
+          "span": [
+            20,
+            22
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c23_s5_b12",
+          "span": [
+            23,
+            23
+          ],
+          "roles": [
+            "تَوْكِيدٌ مَعْنَوِيٌّ"
+          ],
+          "category": "tawabi"
+        }
+      ]
+    }
+  ]
+};

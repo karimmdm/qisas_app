@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "file": "ch1.json",
+    "title": "بَعْدَ آدَمَ",
+    "translation": "After Adam",
+    "totalSentences": 6
+  },
+  {
+    "id": 2,
+    "file": "ch2.json",
+    "title": "حَسَدُ الشَّيْطَانِ",
+    "translation": "The Envy of Shaytan",
+    "totalSentences": 6
+  },
+  {
+    "id": 3,
+    "file": "ch3.json",
+    "title": "فِكْرَةُ الشَّيْطَانِ",
+    "translation": "The Idea of Shaytan",
+    "totalSentences": 6
+  },
+  {
+    "id": 4,
+    "file": "ch4.json",
+    "title": "حِيلَةُ الشَّيْطَانِ",
+    "translation": "The Trick of Shaytan",
+    "totalSentences": 6
+  },
+  {
+    "id": 5,
+    "file": "ch5.json",
+    "title": "صُوَرُ الصَّالِحِينَ",
+    "translation": "The Pictures of the Righteous",
+    "totalSentences": 6
+  },
+  {
+    "id": 6,
+    "file": "ch6.json",
+    "title": "مِنَ الصُّوَرِ إِلَى التَّمَاثِيلِ",
+    "translation": "From Pictures to Statues",
+    "totalSentences": 6
+  },
+  {
+    "id": 7,
+    "file": "ch7.json",
+    "title": "مِنَ التَّمَاثِيلِ إِلَى الأَصْنَامِ",
+    "translation": "From Statues to Idols",
+    "totalSentences": 6
+  },
+  {
+    "id": 8,
+    "file": "ch8.json",
+    "title": "غَضَبُ اللَّهِ",
+    "translation": "The Anger of Allah",
+    "totalSentences": 6
+  },
+  {
+    "id": 9,
+    "file": "ch9.json",
+    "title": "الرَّسُولُ",
+    "translation": "The Messenger",
+    "totalSentences": 6
+  },
+  {
+    "id": 10,
+    "file": "ch10.json",
+    "title": "بَشَرٌ أَمْ مَلَكٌ",
+    "translation": "A Human or an Angel?",
+    "totalSentences": 6
+  },
+  {
+    "id": 11,
+    "file": "ch11.json",
+    "title": "نُوحٌ الرَّسُولُ",
+    "translation": "Nuh the Messenger",
+    "totalSentences": 6
+  },
+  {
+    "id": 12,
+    "file": "ch12.json",
+    "title": "مَاذَا أَجَابَهُ الْقَوْمُ",
+    "translation": "What His People Answered Him",
+    "totalSentences": 6
+  },
+  {
+    "id": 13,
+    "file": "ch13.json",
+    "title": "بَيْنَ نُوحٍ وَقَوْمِهِ",
+    "translation": "Between Nuh and His People",
+    "totalSentences": 6
+  },
+  {
+    "id": 14,
+    "file": "ch14.json",
+    "title": "اتَّبَعَكَ الأَرْذَلُونَ",
+    "translation": "The Lowest Followed You",
+    "totalSentences": 6
+  },
+  {
+    "id": 15,
+    "file": "ch15.json",
+    "title": "حُجَّةُ الأَغْنِيَاءِ",
+    "translation": "The Argument of the Rich",
+    "totalSentences": 6
+  },
+  {
+    "id": 16,
+    "file": "ch16.json",
+    "title": "دَعْوَةُ نُوحٍ",
+    "translation": "The Call of Nuh",
+    "totalSentences": 6
+  },
+  {
+    "id": 17,
+    "file": "ch17.json",
+    "title": "دُعَاءُ نُوحٍ",
+    "translation": "The Supplication of Nuh",
+    "totalSentences": 6
+  },
+  {
+    "id": 18,
+    "file": "ch18.json",
+    "title": "السَّفِينَةُ",
+    "translation": "The Ark",
+    "totalSentences": 6
+  },
+  {
+    "id": 19,
+    "file": "ch19.json",
+    "title": "الطُّوفَانُ",
+    "translation": "The Flood",
+    "totalSentences": 6
+  },
+  {
+    "id": 20,
+    "file": "ch20.json",
+    "title": "ابْنُ نُوحٍ",
+    "translation": "The Son of Nuh",
+    "totalSentences": 6
+  },
+  {
+    "id": 21,
+    "file": "ch21.json",
+    "title": "لَيْسَ مِنْ أَهْلِكَ",
+    "translation": "He Is Not of Your Family",
+    "totalSentences": 6
+  },
+  {
+    "id": 22,
+    "file": "ch22.json",
+    "title": "بَعْدَ الطُّوفَانِ",
+    "translation": "After the Flood",
+    "totalSentences": 6
+  }
+]

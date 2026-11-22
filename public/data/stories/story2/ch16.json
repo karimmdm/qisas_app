@@ -1,0 +1,2389 @@
+{
+  "id": 16,
+  "title": "عَلَى خَزَائِنِ الْأَرْضِ",
+  "translation": "Over the Storehouses of the Earth",
+  "source": "Qisas an-Nabiyeen (Story 2: Sayyiduna Yusuf AS)",
+  "sentences": [
+    {
+      "id": "s2_c16_s1",
+      "order": 1,
+      "text": "وَكَانَ يُوسُفُ يَعْلَمُ أَنَّ الْأَمَانَةَ قَلِيلَةٌ فِي النَّاسِ.",
+      "translation": "And Yusuf knew that trustworthiness was scarce among the people.",
+      "tokens": [
+        "وَ",
+        "كَانَ",
+        "يُوسُفُ",
+        "يَعْلَمُ",
+        "أَنَّ",
+        "الْأَمَانَةَ",
+        "قَلِيلَةٌ",
+        "فِي",
+        "النَّاسِ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s1_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ اسْتِئْنَافٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s1_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s1_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s1_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s1_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s1_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "اِسْمُ أَنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s1_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "خَبَرُ أَنَّ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s1_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s1_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s1_b10",
+          "span": [
+            7,
+            8
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s1_b11",
+          "span": [
+            4,
+            8
+          ],
+          "roles": [
+            "مَصْدَرٌ مُؤَوَّلٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s1_b12",
+          "span": [
+            3,
+            8
+          ],
+          "roles": [
+            "جُمْلَةٌ فِعْلِيَّةٌ",
+            "خَبَرُ كَانَ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s1_b13",
+          "span": [
+            1,
+            8
+          ],
+          "roles": [
+            "جُمْلَةٌ اسْمِيَّةٌ"
+          ],
+          "category": "tarkib_jumla"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s2",
+      "order": 2,
+      "text": "وَكَانَ يُوسُفُ يَعْلَمُ أَنَّ الْخِيَانَةَ كَثِيرَةٌ فِي النَّاسِ.",
+      "translation": "And Yusuf knew that treachery was widespread among the people.",
+      "tokens": [
+        "وَ",
+        "كَانَ",
+        "يُوسُفُ",
+        "يَعْلَمُ",
+        "أَنَّ",
+        "الْخِيَانَةَ",
+        "كَثِيرَةٌ",
+        "فِي",
+        "النَّاسِ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s2_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s2_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s2_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s2_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s2_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s2_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "اِسْمُ أَنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s2_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "خَبَرُ أَنَّ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s2_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s2_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s2_b10",
+          "span": [
+            7,
+            8
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s2_b11",
+          "span": [
+            4,
+            8
+          ],
+          "roles": [
+            "مَصْدَرٌ مُؤَوَّلٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s2_b12",
+          "span": [
+            3,
+            8
+          ],
+          "roles": [
+            "جُمْلَةٌ فِعْلِيَّةٌ",
+            "خَبَرُ كَانَ"
+          ],
+          "category": "tarkib_jumla"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s3",
+      "order": 3,
+      "text": "وَكَانَ يُوسُفُ يَرَى أَنَّ النَّاسَ يَخُونُونَ فِي أَمْوَالِ اللَّهِ.",
+      "translation": "And Yusuf saw that people betrayed the wealth of Allah.",
+      "tokens": [
+        "وَ",
+        "كَانَ",
+        "يُوسُفُ",
+        "يَرَى",
+        "أَنَّ",
+        "النَّاسَ",
+        "يَخُونُونَ",
+        "فِي",
+        "أَمْوَالِ",
+        "اللَّهِ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s3_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s3_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s3_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s3_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s3_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s3_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "اِسْمُ أَنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s3_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "فِعْلٌ وَفَاعِلٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s3_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s3_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s3_b10",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s3_b11",
+          "span": [
+            8,
+            9
+          ],
+          "roles": [
+            "مُرَكَّبٌ إِضَافِيٌّ"
+          ],
+          "category": "murakkabat"
+        },
+        {
+          "id": "s2_c16_s3_b12",
+          "span": [
+            7,
+            9
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s3_b13",
+          "span": [
+            6,
+            9
+          ],
+          "roles": [
+            "جُمْلَةٌ فِعْلِيَّةٌ",
+            "خَبَرُ أَنَّ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s3_b14",
+          "span": [
+            4,
+            9
+          ],
+          "roles": [
+            "مَصْدَرٌ مُؤَوَّلٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s3_b15",
+          "span": [
+            3,
+            9
+          ],
+          "roles": [
+            "جُمْلَةٌ فِعْلِيَّةٌ",
+            "خَبَرُ كَانَ"
+          ],
+          "category": "tarkib_jumla"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s4",
+      "order": 4,
+      "text": "وَكَانَ يَرَى أَنَّ فِي الْأَرْضِ خَزَائِنَ كَثِيرَةً وَلٰكِنَّهَا ضَائِعَةٌ.",
+      "translation": "And he saw that in the earth were many treasures, but they were being wasted.",
+      "tokens": [
+        "وَ",
+        "كَانَ",
+        "يَرَى",
+        "أَنَّ",
+        "فِي",
+        "الْأَرْضِ",
+        "خَزَائِنَ",
+        "كَثِيرَةً",
+        "وَ",
+        "لٰكِنَّـ",
+        "ـهَا",
+        "ضَائِعَةٌ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s4_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s4_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s4_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s4_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s4_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s4_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s4_b7",
+          "span": [
+            4,
+            5
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "خَبَرُ أَنَّ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s4_b8",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "اِسْمُ أَنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s4_b9",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "صِفَةٌ (نَعْتٌ)"
+          ],
+          "category": "tawabi"
+        },
+        {
+          "id": "s2_c16_s4_b10",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s4_b11",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s4_b12",
+          "span": [
+            10,
+            10
+          ],
+          "roles": [
+            "اِسْمُ لٰكِنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s4_b13",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "خَبَرُ لٰكِنَّ"
+          ],
+          "category": "marfooat"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s5",
+      "order": 5,
+      "text": "إِنَّهَا ضَائِعَةٌ لِأَنَّ الْأُمَرَاءَ لَا يَخَافُونَ اللَّهَ فِيهَا، فَتَأْكُلُ كِلَابُهُمْ وَلَا يَجِدُ النَّاسُ مَا يَأْكُلُونَ، وَتَلْبَسُ بُيُوتُهُمْ وَلَا يَجِدُ النَّاسُ مَا يَلْبَسُونَ.",
+      "translation": "They were wasted because the rulers did not fear Allah regarding them, so their dogs ate while the people found nothing to eat, and their houses were adorned while the people found nothing to wear.",
+      "tokens": [
+        "إِنَّـ",
+        "ـهَا",
+        "ضَائِعَةٌ",
+        "لِـ",
+        "ـأَنَّ",
+        "الْأُمَرَاءَ",
+        "لَا",
+        "يَخَافُونَ",
+        "اللَّهَ",
+        "فِيـ",
+        "ـهَا",
+        "فَـ",
+        "ـتَأْكُلُ",
+        "كِلَابُـ",
+        "ـهُمْ",
+        "وَ",
+        "لَا",
+        "يَجِدُ",
+        "النَّاسُ",
+        "مَا",
+        "يَأْكُلُونَ",
+        "وَ",
+        "تَلْبَسُ",
+        "بُيُوتُـ",
+        "ـهُمْ",
+        "وَ",
+        "لَا",
+        "يَجِدُ",
+        "النَّاسُ",
+        "مَا",
+        "يَلْبَسُونَ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s5_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "اِسْمُ إِنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s5_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "خَبَرُ إِنَّ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s5_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "اِسْمُ أَنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s5_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "فِعْلٌ وَفَاعِلٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s5_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s5_b10",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b11",
+          "span": [
+            10,
+            10
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s5_b12",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b13",
+          "span": [
+            12,
+            12
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s5_b14",
+          "span": [
+            13,
+            13
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s5_b15",
+          "span": [
+            14,
+            14
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s5_b16",
+          "span": [
+            15,
+            15
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b17",
+          "span": [
+            16,
+            16
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b18",
+          "span": [
+            17,
+            17
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s5_b19",
+          "span": [
+            18,
+            18
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s5_b20",
+          "span": [
+            19,
+            19
+          ],
+          "roles": [
+            "اِسْمٌ مَوْصُولٌ",
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s5_b21",
+          "span": [
+            20,
+            20
+          ],
+          "roles": [
+            "صِلَةُ الْمَوْصُولِ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s5_b22",
+          "span": [
+            21,
+            21
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b23",
+          "span": [
+            22,
+            22
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s5_b24",
+          "span": [
+            23,
+            23
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s5_b25",
+          "span": [
+            24,
+            24
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s5_b26",
+          "span": [
+            25,
+            25
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b27",
+          "span": [
+            26,
+            26
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s5_b28",
+          "span": [
+            27,
+            27
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s5_b29",
+          "span": [
+            28,
+            28
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s5_b30",
+          "span": [
+            29,
+            29
+          ],
+          "roles": [
+            "اِسْمٌ مَوْصُولٌ",
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s5_b31",
+          "span": [
+            30,
+            30
+          ],
+          "roles": [
+            "صِلَةُ الْمَوْصُولِ"
+          ],
+          "category": "tarkib_jumla"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s6",
+      "order": 6,
+      "text": "وَلَا يَنْفَعُ النَّاسَ بِخَزَائِنِ الْأَرْضِ إِلَّا مَنْ كَانَ حَفِيظًا عَلِيمًا.",
+      "translation": "And no one can benefit people with the earth's storehouses except one who is a watchful guardian and knowledgeable.",
+      "tokens": [
+        "وَ",
+        "لَا",
+        "يَنْفَعُ",
+        "النَّاسَ",
+        "بِـ",
+        "ـخَزَائِنِ",
+        "الْأَرْضِ",
+        "إِلَّا",
+        "مَنْ",
+        "كَانَ",
+        "حَفِيظًا",
+        "عَلِيمًا"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s6_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ اسْتِئْنَافٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s6_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s6_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s6_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "مَفْعُولٌ بِهِ مُقَدَّمٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s6_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s6_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s6_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s6_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "أَدَاةُ حَصْرٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s6_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "اِسْمٌ مَوْصُولٌ",
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s6_b10",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s6_b11",
+          "span": [
+            10,
+            10
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s6_b12",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s6_b13",
+          "span": [
+            9,
+            11
+          ],
+          "roles": [
+            "صِلَةُ الْمَوْصُولِ"
+          ],
+          "category": "tarkib_jumla"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s7",
+      "order": 7,
+      "text": "وَمَنْ كَانَ حَفِيظًا وَمَا كَانَ عَلِيمًا لَا يَعْلَمُ أَيْنَ خَزَائِنُ الْأَرْضِ وَكَيْفَ يُنْتَفَعُ بِهَا.",
+      "translation": "And whoever was a guardian but not knowledgeable did not know where the storehouses of the earth were or how they could be used.",
+      "tokens": [
+        "وَ",
+        "مَنْ",
+        "كَانَ",
+        "حَفِيظًا",
+        "وَ",
+        "مَا",
+        "كَانَ",
+        "عَلِيمًا",
+        "لَا",
+        "يَعْلَمُ",
+        "أَيْنَ",
+        "خَزَائِنُ",
+        "الْأَرْضِ",
+        "وَ",
+        "كَيْفَ",
+        "يُنْتَفَعُ",
+        "بِـ",
+        "ـهَا"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s7_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s7_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "مُبْتَدَأٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s7_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s7_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s7_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s7_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s7_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s7_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s7_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s7_b10",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ",
+            "جَوَابُ الشَّرْطِ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s7_b11",
+          "span": [
+            10,
+            10
+          ],
+          "roles": [
+            "خَبَرٌ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s7_b12",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "مُبْتَدَأٌ مُؤَخَّرٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s7_b13",
+          "span": [
+            12,
+            12
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s7_b14",
+          "span": [
+            13,
+            13
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s7_b15",
+          "span": [
+            14,
+            14
+          ],
+          "roles": [
+            "حَالٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s7_b16",
+          "span": [
+            15,
+            15
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s7_b17",
+          "span": [
+            16,
+            17
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "نَائِبُ فَاعِلٍ"
+          ],
+          "category": "tarkib_jumla"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s8",
+      "order": 8,
+      "text": "وَمَنْ كَانَ عَلِيمًا وَمَا كَانَ حَفِيظًا يَأْكُلُ مِنْهَا وَيَخُونُ فِيهَا.",
+      "translation": "And whoever was knowledgeable but not a guardian would consume from them and betray them.",
+      "tokens": [
+        "وَ",
+        "مَنْ",
+        "كَانَ",
+        "عَلِيمًا",
+        "وَ",
+        "مَا",
+        "كَانَ",
+        "حَفِيظًا",
+        "يَأْكُلُ",
+        "مِنْـ",
+        "ـهَا",
+        "وَ",
+        "يَخُونُ",
+        "فِيـ",
+        "ـهَا"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s8_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s8_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "مُبْتَدَأٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s8_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s8_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s8_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s8_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s8_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s8_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s8_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ",
+            "جَوَابُ الشَّرْطِ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s8_b10",
+          "span": [
+            9,
+            10
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s8_b11",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s8_b12",
+          "span": [
+            12,
+            12
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s8_b13",
+          "span": [
+            13,
+            14
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s9",
+      "order": 9,
+      "text": "وَكَانَ يُوسُفُ حَفِيظًا عَلِيمًا، وَكَانَ يُوسُفُ لَا يُرِيدُ أَنْ يَتْرُكَ الْأُمَرَاءَ يَأْكُلُونَ أَمْوَالَ النَّاسِ، وَكَانَ يُوسُفُ لَا يَقْدِرُ أَنْ يَرَى النَّاسَ يَجُوعُونَ وَيَمُوتُونَ.",
+      "translation": "And Yusuf was a watchful guardian and knowledgeable; Yusuf did not want to leave the rulers consuming the wealth of the people, and Yusuf could not bear to see people starving and dying.",
+      "tokens": [
+        "وَ",
+        "كَانَ",
+        "يُوسُفُ",
+        "حَفِيظًا",
+        "عَلِيمًا",
+        "وَ",
+        "كَانَ",
+        "يُوسُفُ",
+        "لَا",
+        "يُرِيدُ",
+        "أَنْ",
+        "يَتْرُكَ",
+        "الْأُمَرَاءَ",
+        "يَأْكُلُونَ",
+        "أَمْوَالَ",
+        "النَّاسِ",
+        "وَ",
+        "كَانَ",
+        "يُوسُفُ",
+        "لَا",
+        "يَقْدِرُ",
+        "أَنْ",
+        "يَرَى",
+        "النَّاسَ",
+        "يَجُوعُونَ",
+        "وَ",
+        "يَمُوتُونَ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s9_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ اسْتِئْنَافٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s9_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s9_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s9_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s9_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s9_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s9_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b10",
+          "span": [
+            9,
+            9
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s9_b11",
+          "span": [
+            10,
+            10
+          ],
+          "roles": [
+            "حَرْفٌ مَصْدَرِيٌّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b12",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s9_b13",
+          "span": [
+            12,
+            12
+          ],
+          "roles": [
+            "مَفْعُولٌ بِهِ أَوَّلٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s9_b14",
+          "span": [
+            13,
+            13
+          ],
+          "roles": [
+            "جُمْلَةٌ فِعْلِيَّةٌ",
+            "مَفْعُولٌ بِهِ ثَانٍ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s9_b15",
+          "span": [
+            14,
+            14
+          ],
+          "roles": [
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s9_b16",
+          "span": [
+            15,
+            15
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s9_b17",
+          "span": [
+            10,
+            16
+          ],
+          "roles": [
+            "مَصْدَرٌ مُؤَوَّلٌ",
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s9_b18",
+          "span": [
+            16,
+            16
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b19",
+          "span": [
+            17,
+            17
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s9_b20",
+          "span": [
+            18,
+            18
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s9_b21",
+          "span": [
+            19,
+            19
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b22",
+          "span": [
+            20,
+            20
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s9_b23",
+          "span": [
+            21,
+            21
+          ],
+          "roles": [
+            "حَرْفٌ مَصْدَرِيٌّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b24",
+          "span": [
+            22,
+            22
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s9_b25",
+          "span": [
+            23,
+            23
+          ],
+          "roles": [
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s9_b26",
+          "span": [
+            24,
+            24
+          ],
+          "roles": [
+            "جُمْلَةٌ فِعْلِيَّةٌ",
+            "حَالٌ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s9_b27",
+          "span": [
+            25,
+            25
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s9_b28",
+          "span": [
+            26,
+            26
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s10",
+      "order": 10,
+      "text": "وَكَانَ يُوسُفُ لَا يَسْتَحْيِي مِنَ الْحَقِّ، فَقَالَ لِلْمَلِكِ: ﴿اجْعَلْنِي عَلَى خَزَائِنِ الْأَرْضِ إِنِّي حَفِيظٌ عَلِيمٌ﴾.",
+      "translation": "And Yusuf was not shy from the truth, so he said to the king: 'Set me over the storehouses of the land; indeed, I am a knowledgeable guardian.'",
+      "tokens": [
+        "وَ",
+        "كَانَ",
+        "يُوسُفُ",
+        "لَا",
+        "يَسْتَحْيِي",
+        "مِنَ",
+        "الْحَقِّ",
+        "فَـ",
+        "ـقَالَ",
+        "لِـ",
+        "ـلْمَلِكِ",
+        "اجْعَلْـ",
+        "ـنِي",
+        "عَلَى",
+        "خَزَائِنِ",
+        "الْأَرْضِ",
+        "إِنِّـ",
+        "ـي",
+        "حَفِيظٌ",
+        "عَلِيمٌ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s10_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ اسْتِئْنَافٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s10_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s10_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s10_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "حَرْفُ نَفْيٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s10_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "فِعْلٌ مُضَارِعٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s10_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s10_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s10_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s10_b9",
+          "span": [
+            8,
+            8
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s10_b10",
+          "span": [
+            9,
+            10
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s10_b11",
+          "span": [
+            11,
+            11
+          ],
+          "roles": [
+            "فِعْلُ أَمْرٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s10_b12",
+          "span": [
+            12,
+            12
+          ],
+          "roles": [
+            "مَفْعُولٌ بِهِ أَوَّلٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s10_b13",
+          "span": [
+            13,
+            15
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ"
+          ],
+          "category": "tarkib_jumla"
+        },
+        {
+          "id": "s2_c16_s10_b14",
+          "span": [
+            16,
+            16
+          ],
+          "roles": [
+            "حَرْفٌ مُشَبَّهٌ بِالْفِعْلِ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s10_b15",
+          "span": [
+            17,
+            17
+          ],
+          "roles": [
+            "اِسْمُ إِنَّ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s10_b16",
+          "span": [
+            18,
+            18
+          ],
+          "roles": [
+            "خَبَرُ إِنَّ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s10_b17",
+          "span": [
+            19,
+            19
+          ],
+          "roles": [
+            "خَبَرُ إِنَّ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s10_b18",
+          "span": [
+            11,
+            19
+          ],
+          "roles": [
+            "مَقُولُ الْقَوْلِ"
+          ],
+          "category": "tarkib_jumla"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s11",
+      "order": 11,
+      "text": "وَهٰكَذَا كَانَ يُوسُفُ أَمِينًا لِخَزَائِنِ مِصْرَ.",
+      "translation": "And thus Yusuf was a trustee over the storehouses of Egypt.",
+      "tokens": [
+        "وَ",
+        "هٰكَذَا",
+        "كَانَ",
+        "يُوسُفُ",
+        "أَمِينًا",
+        "لِـ",
+        "ـخَزَائِنِ",
+        "مِصْرَ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s11_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ اسْتِئْنَافٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s11_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "شِبْهُ جُمْلَةٍ",
+            "حَالٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s11_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ نَاقِصٌ"
+          ],
+          "category": "afal_naqisah"
+        },
+        {
+          "id": "s2_c16_s11_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "اِسْمُ كَانَ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s11_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "خَبَرُ كَانَ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s11_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "حَرْفُ جَرٍّ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s11_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+          ],
+          "category": "majroorat"
+        },
+        {
+          "id": "s2_c16_s11_b8",
+          "span": [
+            7,
+            7
+          ],
+          "roles": [
+            "مُضَافٌ إِلَيْهِ"
+          ],
+          "category": "majroorat"
+        }
+      ]
+    },
+    {
+      "id": "s2_c16_s12",
+      "order": 12,
+      "text": "وَاسْتَرَاحَ النَّاسُ جِدًّا وَحَمِدُوا اللَّهَ.",
+      "translation": "And the people rested immensely and praised Allah.",
+      "tokens": [
+        "وَ",
+        "اسْتَرَاحَ",
+        "النَّاسُ",
+        "جِدًّا",
+        "وَ",
+        "حَمِدُوا",
+        "اللَّهَ"
+      ],
+      "breakdown": [
+        {
+          "id": "s2_c16_s12_b1",
+          "span": [
+            0,
+            0
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s12_b2",
+          "span": [
+            1,
+            1
+          ],
+          "roles": [
+            "فِعْلٌ مَاضٍ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s12_b3",
+          "span": [
+            2,
+            2
+          ],
+          "roles": [
+            "فَاعِلٌ"
+          ],
+          "category": "marfooat"
+        },
+        {
+          "id": "s2_c16_s12_b4",
+          "span": [
+            3,
+            3
+          ],
+          "roles": [
+            "مَفْعُولٌ مُطْلَقٌ"
+          ],
+          "category": "mansoobat"
+        },
+        {
+          "id": "s2_c16_s12_b5",
+          "span": [
+            4,
+            4
+          ],
+          "roles": [
+            "حَرْفُ عَطْفٍ"
+          ],
+          "category": "huruf"
+        },
+        {
+          "id": "s2_c16_s12_b6",
+          "span": [
+            5,
+            5
+          ],
+          "roles": [
+            "فِعْلٌ وَفَاعِلٌ"
+          ],
+          "category": "afal_tammah"
+        },
+        {
+          "id": "s2_c16_s12_b7",
+          "span": [
+            6,
+            6
+          ],
+          "roles": [
+            "مَفْعُولٌ بِهِ"
+          ],
+          "category": "mansoobat"
+        }
+      ]
+    }
+  ]
+}
