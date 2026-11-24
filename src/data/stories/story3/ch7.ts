@@ -1,4 +1,4 @@
-import { Chapter } from "../../../types/grammar";
+import type { Chapter } from "../../../types/grammar";
 
 export const chapter7: Chapter = {
   "id": 7,
@@ -54,6 +54,7 @@ export const chapter7: Chapter = {
             2
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "فَاعِلٌ"
           ],
           "category": "marfooat"
@@ -109,6 +110,7 @@ export const chapter7: Chapter = {
             7
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُضَافٌ إِلَيْهِ"
           ],
           "category": "majroorat"
@@ -485,6 +487,7 @@ export const chapter7: Chapter = {
             3
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "اِسْمُ كَانَ"
           ],
           "category": "marfooat",
@@ -751,6 +754,7 @@ export const chapter7: Chapter = {
             2
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "فَاعِلٌ"
           ],
           "category": "marfooat"
@@ -784,6 +788,7 @@ export const chapter7: Chapter = {
             5
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
           ],
           "category": "majroorat"
@@ -795,6 +800,7 @@ export const chapter7: Chapter = {
             6
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -828,6 +834,7 @@ export const chapter7: Chapter = {
             9
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -861,6 +868,7 @@ export const chapter7: Chapter = {
             12
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -895,6 +903,7 @@ export const chapter7: Chapter = {
             15
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -929,6 +938,7 @@ export const chapter7: Chapter = {
             18
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -970,3 +980,5 @@ export const chapter7: Chapter = {
     }
   ]
 };
+
+export default chapter7;

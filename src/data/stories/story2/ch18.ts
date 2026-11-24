@@ -1,4 +1,4 @@
-import { Chapter } from "../../../types/grammar";
+import type { Chapter } from "../../../types/grammar";
 
 export const chapter18: Chapter = {
   "id": 18,
@@ -147,6 +147,7 @@ export const chapter18: Chapter = {
             11
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -191,6 +192,7 @@ export const chapter18: Chapter = {
             15
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -267,9 +269,10 @@ export const chapter18: Chapter = {
             4
           ],
           "roles": [
-            "حَرْفُ جَرٍّ"
+            "ضَمِيرٌ مُنْفَصِلٌ",
+            "ضَمِيرُ فَصْلٍ"
           ],
-          "category": "huruf"
+          "category": "murakkabat"
         },
         {
           "id": "s2_c18_s2_b6",
@@ -392,9 +395,10 @@ export const chapter18: Chapter = {
             3
           ],
           "roles": [
-            "حَرْفُ جَرٍّ"
+            "ضَمِيرٌ مُنْفَصِلٌ",
+            "ضَمِيرُ فَصْلٍ"
           ],
-          "category": "huruf"
+          "category": "murakkabat"
         },
         {
           "id": "s2_c18_s3_b5",
@@ -659,6 +663,7 @@ export const chapter18: Chapter = {
             11
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -713,6 +718,7 @@ export const chapter18: Chapter = {
             2
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -779,6 +785,7 @@ export const chapter18: Chapter = {
             10
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ مُؤَخَّرٌ"
           ],
           "category": "marfooat"
@@ -1591,6 +1598,7 @@ export const chapter18: Chapter = {
             8
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -2615,3 +2623,5 @@ export const chapter18: Chapter = {
     }
   ]
 };
+
+export default chapter18;

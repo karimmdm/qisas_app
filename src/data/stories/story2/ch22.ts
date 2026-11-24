@@ -1,4 +1,4 @@
-import { Chapter } from "../../../types/grammar";
+import type { Chapter } from "../../../types/grammar";
 
 export const chapter22: Chapter = {
   "id": 22,
@@ -1974,6 +1974,7 @@ export const chapter22: Chapter = {
             19
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -2092,6 +2093,7 @@ export const chapter22: Chapter = {
             5
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "اِسْمُ أَنَّ"
           ],
           "category": "mansoobat"
@@ -2170,6 +2172,7 @@ export const chapter22: Chapter = {
             13
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مَعْطُوفٌ"
           ],
           "category": "tawabi"
@@ -2398,9 +2401,10 @@ export const chapter22: Chapter = {
             4
           ],
           "roles": [
-            "حَرْفُ جَرٍّ"
+            "ضَمِيرٌ مُنْفَصِلٌ",
+            "ضَمِيرُ فَصْلٍ"
           ],
-          "category": "huruf"
+          "category": "murakkabat"
         },
         {
           "id": "s2_c22_s15_b6",
@@ -2431,6 +2435,7 @@ export const chapter22: Chapter = {
             7
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -2466,6 +2471,7 @@ export const chapter22: Chapter = {
             12
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -2632,6 +2638,7 @@ export const chapter22: Chapter = {
             7
           ],
           "roles": [
+            "اِسْمٌ مَوْصُولٌ",
             "اِسْمُ أَنَّ"
           ],
           "category": "mansoobat"
@@ -2656,9 +2663,10 @@ export const chapter22: Chapter = {
             10
           ],
           "roles": [
-            "حَرْفُ جَرٍّ"
+            "ضَمِيرٌ مُنْفَصِلٌ",
+            "ضَمِيرُ فَصْلٍ"
           ],
-          "category": "huruf"
+          "category": "murakkabat"
         },
         {
           "id": "s2_c22_s16_b10",
@@ -2802,6 +2810,7 @@ export const chapter22: Chapter = {
             1
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -2835,6 +2844,7 @@ export const chapter22: Chapter = {
             4
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -3310,6 +3320,7 @@ export const chapter22: Chapter = {
             15
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -3340,3 +3351,5 @@ export const chapter22: Chapter = {
     }
   ]
 };
+
+export default chapter22;

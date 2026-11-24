@@ -1,4 +1,4 @@
-import { Chapter } from "../../../types/grammar";
+import type { Chapter } from "../../../types/grammar";
 
 export const chapter16: Chapter = {
   "id": 16,
@@ -774,6 +774,7 @@ export const chapter16: Chapter = {
             1
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -807,6 +808,7 @@ export const chapter16: Chapter = {
             3
           ],
           "roles": [
+            "اِسْمٌ مَوْصُولٌ",
             "صِفَةٌ (نَعْتٌ)"
           ],
           "category": "tawabi"
@@ -884,6 +886,7 @@ export const chapter16: Chapter = {
             9
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "تَوْكِيدٌ لَفْظِيٌّ"
           ],
           "category": "tawabi",
@@ -959,6 +962,7 @@ export const chapter16: Chapter = {
             1
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -1003,6 +1007,7 @@ export const chapter16: Chapter = {
             4
           ],
           "roles": [
+            "اِسْمٌ مَوْصُولٌ",
             "صِفَةٌ (نَعْتٌ)"
           ],
           "category": "tawabi"
@@ -1306,6 +1311,7 @@ export const chapter16: Chapter = {
             3
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
           ],
           "category": "majroorat"
@@ -1696,6 +1702,7 @@ export const chapter16: Chapter = {
             9
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
           ],
           "category": "majroorat"
@@ -1964,6 +1971,7 @@ export const chapter16: Chapter = {
             3
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -1994,3 +2002,5 @@ export const chapter16: Chapter = {
     }
   ]
 };
+
+export default chapter16;

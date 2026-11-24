@@ -1,4 +1,4 @@
-import { Chapter } from "../../../types/grammar";
+import type { Chapter } from "../../../types/grammar";
 
 export const chapter3: Chapter = {
   "id": 3,
@@ -469,6 +469,7 @@ export const chapter3: Chapter = {
             5
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
           ],
           "category": "majroorat"
@@ -770,3 +771,5 @@ export const chapter3: Chapter = {
     }
   ]
 };
+
+export default chapter3;

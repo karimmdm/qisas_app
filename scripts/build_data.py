@@ -9,8 +9,8 @@ import re
 import sys
 
 def parse_ts_to_dict(ts_content: str):
-    # Match object literal after `export const chapterX: Chapter = { ... };`
-    match = re.search(r"export const \w+(?::\s*\w+)?\s*=\s*(\{[\s\S]*\});\s*$", ts_content)
+    # Match object literal after `export const chapterX: Chapter = { ... };` or `const chapterX: Chapter = { ... };`
+    match = re.search(r"(?:export\s+)?const\s+\w+(?::\s*\w+)?\s*=\s*(\{[\s\S]*\});(?:\s*export\s+default\s+\w+;)?\s*$", ts_content)
     if not match:
         raise ValueError("Could not find exported chapter object in file")
     

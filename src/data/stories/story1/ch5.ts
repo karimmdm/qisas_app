@@ -1,4 +1,4 @@
-import { Chapter } from "../../../types/grammar";
+import type { Chapter } from "../../../types/grammar";
 
 export const chapter5: Chapter = {
   "id": 5,
@@ -532,6 +532,7 @@ export const chapter5: Chapter = {
             3
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -685,6 +686,7 @@ export const chapter5: Chapter = {
             4
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -805,6 +807,7 @@ export const chapter5: Chapter = {
             2
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -827,6 +830,7 @@ export const chapter5: Chapter = {
             4
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -1006,6 +1010,7 @@ export const chapter5: Chapter = {
             5
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُضَافٌ إِلَيْهِ"
           ],
           "category": "majroorat"
@@ -1028,6 +1033,7 @@ export const chapter5: Chapter = {
             6
           ],
           "roles": [
+            "اِسْمُ إِشَارَةٍ",
             "صِفَةٌ (نَعْتٌ)",
             "بَدَلٌ"
           ],
@@ -1063,6 +1069,7 @@ export const chapter5: Chapter = {
             9
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مَفْعُولٌ بِهِ"
           ],
           "category": "mansoobat"
@@ -1843,6 +1850,7 @@ export const chapter5: Chapter = {
             4
           ],
           "roles": [
+            "ضَمِيرٌ مُنْفَصِلٌ",
             "مُبْتَدَأٌ"
           ],
           "category": "marfooat"
@@ -2437,3 +2445,5 @@ export const chapter5: Chapter = {
     }
   ]
 };
+
+export default chapter5;

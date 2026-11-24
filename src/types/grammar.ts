@@ -121,6 +121,7 @@ export type MurakkabatRole =
   | "اِسْمٌ مَوْصُولٌ"
   | "ضَمِيرٌ مُتَّصِلٌ"
   | "ضَمِيرٌ مُنْفَصِلٌ"
+  | "ضَمِيرُ فَصْلٍ"
   | "مَعْطُوفٌ وَمَعْطُوفٌ عَلَيْهِ";
 
 export type TarkibJumlaRole =
@@ -247,6 +248,7 @@ export const CATEGORY_POOLS: Record<GrammarCategory, readonly GrammarRole[]> = {
     "اِسْمٌ مَوْصُولٌ",
     "ضَمِيرٌ مُتَّصِلٌ",
     "ضَمِيرٌ مُنْفَصِلٌ",
+    "ضَمِيرُ فَصْلٍ",
     "مَعْطُوفٌ وَمَعْطُوفٌ عَلَيْهِ",
   ],
   tarkib_jumla: [
