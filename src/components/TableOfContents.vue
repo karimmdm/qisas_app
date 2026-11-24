@@ -10,7 +10,7 @@
             rel="noopener noreferrer"
             class="badge-kicker"
           >
-            <span>Source: Al Qalam Institute</span>
+            <span>Arabic Text Source: Al Qalam Institute</span>
             <span class="kicker-arrow">&nearr;</span>
           </a>
           <h1 class="header-title">Qisas an-Nabiyeen</h1>
@@ -174,25 +174,25 @@ const overallPercent = computed(() => {
 }
 
 .badge-kicker {
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--color-primary);
+  color: var(--color-text-light);
   display: inline-flex;
   align-items: center;
   gap: 3px;
   text-decoration: none;
-  transition: opacity 0.15s ease, color 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 .badge-kicker:hover {
+  color: var(--color-text-muted);
   text-decoration: underline;
-  opacity: 0.85;
 }
 
 .kicker-arrow {
-  font-size: 11px;
+  font-size: 9.5px;
   line-height: 1;
 }
 
