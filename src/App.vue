@@ -264,18 +264,8 @@ function handleChapterFinished(chapterId: number) {
 }
 
 @media (min-width: 640px) {
-  .app-shell {
-    background-color: var(--color-bg-app);
-  }
-
   .phone-frame {
-    max-width: 440px;
-    height: 88vh;
-    max-height: 920px;
-    border-radius: 36px;
-    border: 8px solid #1e293b;
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1),
-      0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    max-width: 540px;
   }
 }
 </style>

@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "data:build": "python3 scripts/build_data.py"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.5.13"

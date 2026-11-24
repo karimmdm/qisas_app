@@ -3,7 +3,7 @@
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-arabic: 'Scheherazade New', 'Amiri', 'Traditional Arabic', serif;
   
-  --color-bg-app: #0f172a;
+  --color-bg-app: #ffffff;
   --color-surface: #ffffff;
   --color-surface-subtle: #f8fafc;
   --color-border: #e2e8f0;
@@ -44,12 +44,6 @@ html, body {
   padding: 0;
   overflow: hidden;
   background-color: var(--color-bg-app);
-}
-
-@media (max-width: 639px) {
-  html, body {
-    background-color: #ffffff;
-  }
 }
 
 body {
