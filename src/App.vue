@@ -242,33 +242,40 @@ function handleChapterFinished(chapterId: number) {
 <style scoped>
 .app-shell {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-bg-app);
+  background-color: #ffffff;
   padding: 0;
+  width: 100%;
 }
 
 .phone-frame {
   width: 100%;
-  max-width: 480px;
   height: 100vh;
-  max-height: 920px;
+  height: 100dvh;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1),
-    0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 640px) {
+  .app-shell {
+    background-color: var(--color-bg-app);
+  }
+
   .phone-frame {
+    max-width: 440px;
     height: 88vh;
+    max-height: 920px;
     border-radius: 36px;
     border: 8px solid #1e293b;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1),
+      0 8px 10px -6px rgba(0, 0, 0, 0.1);
   }
 }
 </style>

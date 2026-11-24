@@ -162,7 +162,7 @@ const overallPercent = computed(() => {
 }
 
 .toc-header {
-  padding: 24px 20px 20px 20px;
+  padding: calc(18px + env(safe-area-inset-top, 0px)) 20px 18px 20px;
   background-color: #ffffff;
   border-bottom: 1px solid var(--color-border);
 }
@@ -374,7 +374,8 @@ const overallPercent = computed(() => {
 .chapter-list {
   flex: 1;
   overflow-y: auto;
-  padding: 16px;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px 16px calc(24px + env(safe-area-inset-bottom, 0px)) 16px;
   display: flex;
   flex-direction: column;
   gap: 10px;

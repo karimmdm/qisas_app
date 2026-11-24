@@ -320,7 +320,7 @@ function advanceNext() {
 }
 
 .quiz-header {
-  padding: 20px 20px 16px 20px;
+  padding: calc(16px + env(safe-area-inset-top, 0px)) 20px 14px 20px;
   background-color: #f8fafc;
   border-bottom: 1px solid var(--color-border);
 }
@@ -432,7 +432,8 @@ function advanceNext() {
 .quiz-body {
   flex: 1;
   overflow-y: auto;
-  padding: 16px 18px 24px 18px;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px 18px calc(24px + env(safe-area-inset-bottom, 0px)) 18px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
