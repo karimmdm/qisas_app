@@ -422,7 +422,13 @@ export const chapter9: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c9_s3_b3",
@@ -704,7 +710,13 @@ export const chapter9: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 2,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c9_s5_b9",
@@ -1140,7 +1152,13 @@ export const chapter9: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 3,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c9_s7_b3",
@@ -2035,7 +2053,13 @@ export const chapter9: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c9_s11_b21",
@@ -2143,7 +2167,13 @@ export const chapter9: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c9_s12_b4",
@@ -2277,7 +2307,13 @@ export const chapter9: Chapter = {
           "roles": [
             "فِعْلٌ مُضَارِعٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 8,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c9_s13_b4",
@@ -2343,7 +2379,13 @@ export const chapter9: Chapter = {
           "roles": [
             "فِعْلٌ مُضَارِعٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 8,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c9_s13_b10",

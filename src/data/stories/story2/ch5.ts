@@ -339,7 +339,13 @@ export const chapter5: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 3,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c5_s2_b2",
@@ -971,7 +977,13 @@ export const chapter5: Chapter = {
           "roles": [
             "فِعْلٌ مُضَارِعٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 2,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c5_s5_b9",

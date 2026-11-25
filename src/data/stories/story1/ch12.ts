@@ -216,7 +216,13 @@ export const chapter12: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "c12_s2_b3",
@@ -534,7 +540,13 @@ export const chapter12: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 2,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "c12_s3_b10",
@@ -1507,7 +1519,13 @@ export const chapter12: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "c12_s10_b4",
@@ -2044,7 +2062,13 @@ export const chapter12: Chapter = {
             "فِعْلٌ وَفَاعِلٌ"
           ],
           "category": "afal_tammah",
-          "taqdeer": "وَالْفَاعِلُ ضَمِيرٌ مُسْتَتِرٌ (هُوَ)"
+          "taqdeer": "وَالْفَاعِلُ ضَمِيرٌ مُسْتَتِرٌ (هُوَ)",
+          "sarf": {
+            "family": 2,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "c12_s14_b6",

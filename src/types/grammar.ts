@@ -273,6 +273,25 @@ export const CATEGORY_POOLS: Record<GrammarCategory, readonly GrammarRole[]> = {
   ],
 };
 
+export type SarfFamily = 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
+export type SarfPerson = "3rd" | "2nd" | "1st";
+export type SarfGender = "masc" | "fem";
+export type SarfNumber = "singular" | "dual" | "plural";
+
+export interface SarfVariant {
+  person: SarfPerson;
+  gender?: SarfGender;
+}
+
+export interface SarfInfo {
+  family: SarfFamily;
+  person: SarfPerson;
+  gender?: SarfGender;
+  number: SarfNumber;
+  /** Valid morphological alternatives (e.g. mudari تَـ singular = 3rd fem OR 2nd masc) */
+  alternatives?: SarfVariant[];
+}
+
 export interface BreakdownSpan {
   id: string;
   /** [start_token_index, end_token_index] (inclusive) */
@@ -285,6 +304,8 @@ export interface BreakdownSpan {
   taqdeer?: string;
   /** Scholarly debate / notes (e.g. "البصرة vs الكوفة") */
   note?: string;
+  /** Optional Sarf metadata for derived verbs (Forms II–X) */
+  sarf?: SarfInfo;
 }
 
 export interface Sentence {

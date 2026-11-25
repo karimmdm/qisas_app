@@ -262,10 +262,4 @@ function handleChapterFinished(chapterId: number) {
   position: relative;
   overflow: hidden;
 }
-
-@media (min-width: 640px) {
-  .phone-frame {
-    max-width: 540px;
-  }
-}
 </style>

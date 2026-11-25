@@ -167,6 +167,13 @@ const overallPercent = computed(() => {
   border-bottom: 1px solid var(--color-border);
 }
 
+.toc-header > * {
+  max-width: 520px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-top {
   display: flex;
   align-items: center;
@@ -379,6 +386,13 @@ const overallPercent = computed(() => {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.chapter-list > * {
+  max-width: 520px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .chapter-card {

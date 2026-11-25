@@ -587,7 +587,19 @@ export const chapter2: Chapter = {
             "فِعْلٌ وَفَاعِلٌ"
           ],
           "category": "afal_tammah",
-          "taqdeer": "وَالْفَاعِلُ ضَمِيرٌ مُسْتَتِرٌ تَقْدِيرُهُ (هِيَ)"
+          "taqdeer": "وَالْفَاعِلُ ضَمِيرٌ مُسْتَتِرٌ تَقْدِيرُهُ (هِيَ)",
+          "sarf": {
+            "family": 5,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "fem",
+            "alternatives": [
+              {
+                "person": "2nd",
+                "gender": "masc"
+              }
+            ]
+          }
         },
         {
           "id": "c2_7_6",

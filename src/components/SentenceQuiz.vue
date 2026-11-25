@@ -71,6 +71,22 @@
 
       <!-- BOTTOM PINNED: Multiple Choice Buttons & Taqdīr -->
       <div class="quiz-bottom-section">
+        <!-- Sarf Trigger Button (Shown only for non-Form I derived verbs) -->
+        <button
+          v-if="currentSpan.sarf"
+          type="button"
+          @click="openSarfModal"
+          :class="['sarf-trigger-btn', { 'is-solved': isSarfSolved }]"
+        >
+          <span class="sarf-trigger-left">
+            <span v-if="isSarfSolved" class="sarf-trigger-icon">✓</span>
+            <span class="sarf-trigger-text">
+              {{ isSarfSolved ? sarfSolvedSummary : 'Identify Sarf (Family · Person · Gender · Number)' }}
+            </span>
+          </span>
+          <span class="sarf-trigger-cta">{{ isSarfSolved ? 'Solved' : 'Open →' }}</span>
+        </button>
+
         <!-- Constituent Roles Composition Prompt -->
         <div class="composition-banner">
           <span class="composition-pill">
@@ -115,14 +131,25 @@
         </div>
       </div>
     </div>
+
+    <!-- Minimal Sarf Popup Card -->
+    <SarfModal
+      v-if="showSarfModal && currentSpan.sarf"
+      :word="activeSpanText"
+      :target="currentSpan.sarf"
+      :solved="isSarfSolved"
+      @close="showSarfModal = false"
+      @solved="handleSarfSolved"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed, watch } from "vue";
-import type { Chapter, BreakdownSpan, Sentence, GrammarRole } from "../types/grammar";
+import type { Chapter, BreakdownSpan, Sentence, GrammarRole, SarfFamily, SarfVariant } from "../types/grammar";
 import { CATEGORY_POOLS } from "../types/grammar";
 import { isSpanCompleted } from "../services/storage";
+import SarfModal from "./SarfModal.vue";
 
 const props = defineProps<{
   chapter: Chapter;
@@ -208,8 +235,48 @@ function jumpToSpan(idx: number) {
 // Active question attempt state (strictly typed with GrammarRole)
 const selectedRoles = ref<GrammarRole[]>([]);
 const incorrectOptions = ref<GrammarRole[]>([]);
-const isUnitSolved = ref(false);
+const isNahwSolved = ref(false);
+const isSarfSolved = ref(false);
 const currentOptions = ref<GrammarRole[]>([]);
+
+const isUnitSolved = computed(() => {
+  return isNahwSolved.value && (!currentSpan.value.sarf || isSarfSolved.value);
+});
+
+const activeSpanText = computed(() => {
+  const [start, end] = currentSpan.value.span;
+  return currentSentence.value.tokens.slice(start, end + 1).join(" ");
+});
+
+const SARF_ROMAN: Record<SarfFamily, string> = {
+  2: "II", 3: "III", 4: "IV", 5: "V", 6: "VI", 7: "VII", 8: "VIII", 9: "IX", 10: "X",
+};
+
+const showSarfModal = ref(false);
+const solvedSarfVariant = ref<SarfVariant | null>(null);
+
+const sarfSolvedSummary = computed(() => {
+  const s = currentSpan.value.sarf;
+  if (!s) return "";
+  const chosen = solvedSarfVariant.value ?? { person: s.person, gender: s.gender };
+  const parts = [`Form ${SARF_ROMAN[s.family]}`, chosen.person];
+  if (chosen.person !== "1st" && chosen.gender) {
+    parts.push(chosen.gender === "masc" ? "Masc" : "Fem");
+  }
+  parts.push(s.number === "singular" ? "Sing" : s.number === "dual" ? "Dual" : "Plural");
+  return `Sarf: ${parts.join(" · ")}`;
+});
+
+function openSarfModal() {
+  showSarfModal.value = true;
+}
+
+function handleSarfSolved(choice: SarfVariant) {
+  solvedSarfVariant.value = choice;
+  isSarfSolved.value = true;
+  showSarfModal.value = false;
+  finalizeUnitIfSolved();
+}
 
 // Generate multiple-choice options with canonical distractors
 function loadSpan(span: BreakdownSpan) {
@@ -221,15 +288,19 @@ function loadSpan(span: BreakdownSpan) {
   const chosenDistractors = shuffled.slice(0, Math.max(3, 4 - correctRoles.length));
   
   currentOptions.value = [...correctRoles, ...chosenDistractors].sort(() => 0.5 - Math.random());
+  showSarfModal.value = false;
+  solvedSarfVariant.value = null;
 
   if (isSpanDone(span.id)) {
     selectedRoles.value = [...correctRoles];
     incorrectOptions.value = [];
-    isUnitSolved.value = true;
+    isNahwSolved.value = true;
+    isSarfSolved.value = true;
   } else {
     selectedRoles.value = [];
     incorrectOptions.value = [];
-    isUnitSolved.value = false;
+    isNahwSolved.value = false;
+    isSarfSolved.value = false;
   }
 }
 
@@ -259,7 +330,7 @@ function isOptionCorrect(option: GrammarRole): boolean {
 }
 
 function isOptionDisabled(option: GrammarRole): boolean {
-  return isUnitSolved.value || incorrectOptions.value.includes(option);
+  return isNahwSolved.value || incorrectOptions.value.includes(option);
 }
 
 function getOptionClass(option: GrammarRole): string {
@@ -268,8 +339,19 @@ function getOptionClass(option: GrammarRole): string {
   return "";
 }
 
+function finalizeUnitIfSolved() {
+  if (!isUnitSolved.value) return;
+  if (completedSpansInSentence.value.has(currentSpan.value.id)) return;
+  completedSpansInSentence.value.add(currentSpan.value.id);
+  emit("spanSolved", {
+    spanId: currentSpan.value.id,
+    sentenceId: currentSentence.value.id,
+    isSentenceFinished: isLastSpanOfSentence.value
+  });
+}
+
 function handleOptionClick(option: GrammarRole) {
-  if (isUnitSolved.value) return;
+  if (isNahwSolved.value) return;
 
   const isCorrect = currentSpan.value.roles.includes(option);
 
@@ -281,14 +363,8 @@ function handleOptionClick(option: GrammarRole) {
     // Verification check: constituent is solved when user selected roles match span.roles
     const hasAllRoles = currentSpan.value.roles.every(r => selectedRoles.value.includes(r));
     if (hasAllRoles && selectedRoles.value.length === currentSpan.value.roles.length) {
-      isUnitSolved.value = true;
-      completedSpansInSentence.value.add(currentSpan.value.id);
-      
-      emit("spanSolved", {
-        spanId: currentSpan.value.id,
-        sentenceId: currentSentence.value.id,
-        isSentenceFinished: isLastSpanOfSentence.value
-      });
+      isNahwSolved.value = true;
+      finalizeUnitIfSolved();
       // No automated timer! Student navigates deliberately via Next button or track pills.
     }
   } else {
@@ -323,6 +399,13 @@ function advanceNext() {
   padding: calc(16px + env(safe-area-inset-top, 0px)) 20px 14px 20px;
   background-color: #f8fafc;
   border-bottom: 1px solid var(--color-border);
+}
+
+.quiz-header > * {
+  max-width: 520px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-nav {
@@ -442,11 +525,17 @@ function advanceNext() {
 
 .quiz-top-section {
   width: 100%;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
   flex: 0 0 auto;
 }
 
 .quiz-bottom-section {
   width: 100%;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
   flex: 0 0 auto;
   margin-top: 0;
 }
@@ -692,5 +781,59 @@ function advanceNext() {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(4px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sarf Trigger Button */
+.sarf-trigger-btn {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 11px 14px;
+  border-radius: 14px;
+  border: 2px solid #c7d2fe;
+  background-color: #eef2ff;
+  color: #3730a3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 3px 0 #c7d2fe;
+  transition: all 0.15s ease;
+}
+
+.sarf-trigger-btn:hover:not(.is-solved) {
+  background-color: #e0e7ff;
+  border-color: #a5b4fc;
+}
+
+.sarf-trigger-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #c7d2fe;
+}
+
+.sarf-trigger-btn.is-solved {
+  background-color: var(--color-success-bg);
+  border-color: var(--color-success);
+  color: var(--color-success-dark);
+  box-shadow: none;
+}
+
+.sarf-trigger-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+}
+
+.sarf-trigger-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.sarf-trigger-cta {
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
 }
 </style>

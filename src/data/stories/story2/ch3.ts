@@ -361,7 +361,13 @@ export const chapter3: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "plural",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c3_s2_b19",
@@ -445,7 +451,13 @@ export const chapter3: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c3_s3_b6",
@@ -905,7 +917,19 @@ export const chapter3: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "fem",
+            "alternatives": [
+              {
+                "person": "2nd",
+                "gender": "masc"
+              }
+            ]
+          }
         },
         {
           "id": "s2_c3_s6_b8",
@@ -1346,7 +1370,13 @@ export const chapter3: Chapter = {
             "فِعْلُ أَمْرٍ",
             "طَلَبٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "2nd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c3_s9_b2",
@@ -1715,7 +1745,13 @@ export const chapter3: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c3_s11_b6",

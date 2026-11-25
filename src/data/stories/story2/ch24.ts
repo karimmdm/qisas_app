@@ -112,7 +112,13 @@ export const chapter24: Chapter = {
             "فِعْلٌ مَاضٍ",
             "جَوَابُ الشَّرْطِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c24_s1_b8",
@@ -617,7 +623,13 @@ export const chapter24: Chapter = {
           "roles": [
             "فِعْلُ أَمْرٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 10,
+            "person": "2nd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c24_s4_b4",
@@ -662,7 +674,13 @@ export const chapter24: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ نَاقِصٌ"
           ],
-          "category": "afal_naqisah"
+          "category": "afal_naqisah",
+          "sarf": {
+            "family": 2,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c24_s4_b8",
@@ -728,7 +746,12 @@ export const chapter24: Chapter = {
           "roles": [
             "فِعْلٌ مُضَارِعٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 10,
+            "person": "1st",
+            "number": "singular"
+          }
         },
         {
           "id": "s2_c24_s5_b4",

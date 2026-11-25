@@ -28,7 +28,13 @@ export const chapter1: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 3,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s3_c1_s1_b2",
@@ -275,7 +281,13 @@ export const chapter1: Chapter = {
             "فِعْلٌ مَاضٍ"
           ],
           "category": "afal_tammah",
-          "taqdeer": "وَالتَّاءُ تَاءُ التَّأْنِيثِ السَّاكِنَةُ"
+          "taqdeer": "وَالتَّاءُ تَاءُ التَّأْنِيثِ السَّاكِنَةُ",
+          "sarf": {
+            "family": 8,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "fem"
+          }
         },
         {
           "id": "s3_c1_s3_b3",

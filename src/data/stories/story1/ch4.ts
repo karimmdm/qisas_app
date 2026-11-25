@@ -817,7 +817,13 @@ export const chapter4: Chapter = {
           "roles": [
             "فِعْلٌ وَفَاعِلٌ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 5,
+            "person": "2nd",
+            "number": "plural",
+            "gender": "masc"
+          }
         },
         {
           "id": "c4_s6_b14",
@@ -1587,7 +1593,13 @@ export const chapter4: Chapter = {
             "فِعْلٌ وَفَاعِلٌ"
           ],
           "category": "afal_tammah",
-          "taqdeer": "وَالْفَاعِلُ ضَمِيرٌ مُسْتَتِرٌ (هُوَ)"
+          "taqdeer": "وَالْفَاعِلُ ضَمِيرٌ مُسْتَتِرٌ (هُوَ)",
+          "sarf": {
+            "family": 2,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "c4_s13_b9",

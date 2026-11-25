@@ -114,7 +114,13 @@ export const chapter12: Chapter = {
             "فِعْلٌ وَفَاعِلٌ",
             "جَوَابُ الشَّرْطِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c12_s1_b9",
@@ -863,7 +869,13 @@ export const chapter12: Chapter = {
           "roles": [
             "فِعْلٌ مَاضٍ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c12_s6_b3",
