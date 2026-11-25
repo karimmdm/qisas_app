@@ -17,7 +17,19 @@
       <!-- Sentence Progress Counter -->
       <div class="sentence-progress-row">
         <span>Sentence {{ currentSentenceIndex + 1 }} of {{ chapter.sentences.length }}</span>
-        <span class="active-step-indicator">{{ currentSpanIndex + 1 }} / {{ currentSentence.breakdown.length }}</span>
+        <div class="progress-right-actions">
+          <a
+            v-if="reportUrl"
+            :href="reportUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-report-unit"
+            title="Report an issue with this unit"
+          >
+            ⚑ Report
+          </a>
+          <span class="active-step-indicator">{{ currentSpanIndex + 1 }} / {{ currentSentence.breakdown.length }}</span>
+        </div>
       </div>
 
       <!-- Segmented Bar for Sentence Constituents -->
@@ -149,9 +161,11 @@ import { ref, computed, watch } from "vue";
 import type { Chapter, BreakdownSpan, Sentence, GrammarRole, SarfFamily, SarfVariant } from "../types/grammar";
 import { CATEGORY_POOLS } from "../types/grammar";
 import { isSpanCompleted } from "../services/storage";
+import { buildFlagUrl, isReportingConfigured } from "../config/reporting";
 import SarfModal from "./SarfModal.vue";
 
 const props = defineProps<{
+  storyId: number;
   chapter: Chapter;
   initialSentenceId?: string;
   initialSpanIndex?: number;
@@ -246,6 +260,20 @@ const isUnitSolved = computed(() => {
 const activeSpanText = computed(() => {
   const [start, end] = currentSpan.value.span;
   return currentSentence.value.tokens.slice(start, end + 1).join(" ");
+});
+
+const reportUrl = computed(() => {
+  if (!isReportingConfigured()) return "";
+  return buildFlagUrl({
+    storyId: props.storyId,
+    chapterId: props.chapter.id,
+    sentenceOrder: currentSentence.value.order,
+    sentenceId: currentSentence.value.id,
+    unitIndex: currentSpanIndex.value + 1,
+    totalUnits: currentSentence.value.breakdown.length,
+    spanId: currentSpan.value.id,
+    tokenText: activeSpanText.value,
+  });
 });
 
 const SARF_ROMAN: Record<SarfFamily, string> = {
@@ -466,6 +494,27 @@ function advanceNext() {
 .active-step-indicator {
   color: var(--color-primary);
   font-weight: 800;
+}
+
+.progress-right-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-report-unit {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-light);
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: 6px;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.btn-report-unit:hover {
+  color: var(--color-text-muted);
+  background-color: #e2e8f0;
 }
 
 .segmented-track {

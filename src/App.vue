@@ -18,6 +18,7 @@
       <SentenceQuiz
         v-else-if="currentView === 'quiz' && activeChapter"
         :key="`${activeStoryId}-${activeChapterId}-${resumeSentenceId || 'init'}`"
+        :storyId="activeStoryId"
         :chapter="activeChapter"
         :initialSentenceId="resumeSentenceId"
         :initialSpanIndex="resumeSpanIndex"
