@@ -16,7 +16,27 @@
 
       <!-- Sentence Progress Counter -->
       <div class="sentence-progress-row">
-        <span>Sentence {{ currentSentenceIndex + 1 }} of {{ chapter.sentences.length }}</span>
+        <div class="sentence-nav-group">
+          <button
+            v-if="currentSentenceIndex > 0"
+            type="button"
+            class="btn-sentence-nav"
+            @click="prevSentence"
+            title="Previous sentence"
+          >
+            &lsaquo;
+          </button>
+          <span>Sentence {{ currentSentenceIndex + 1 }} of {{ chapter.sentences.length }}</span>
+          <button
+            v-if="!isLastSentenceOfChapter"
+            type="button"
+            class="btn-sentence-nav"
+            @click="skipToNextSentence"
+            title="Skip to next sentence"
+          >
+            Next &rsaquo;
+          </button>
+        </div>
         <div class="progress-right-actions">
           <a
             v-if="reportUrl"
@@ -412,6 +432,20 @@ function advanceNext() {
     emit("chapterFinished", props.chapter.id);
   }
 }
+
+function prevSentence() {
+  if (currentSentenceIndex.value > 0) {
+    currentSentenceIndex.value--;
+    currentSpanIndex.value = 0;
+  }
+}
+
+function skipToNextSentence() {
+  if (!isLastSentenceOfChapter.value) {
+    currentSentenceIndex.value++;
+    currentSpanIndex.value = 0;
+  }
+}
 </script>
 
 <style scoped>
@@ -489,6 +523,28 @@ function advanceNext() {
   font-weight: 700;
   color: #334155;
   margin-bottom: 8px;
+}
+
+.sentence-nav-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-sentence-nav {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  border: 1px solid var(--color-primary-border);
+  padding: 2px 7px;
+  border-radius: 6px;
+  line-height: 1.3;
+  transition: background-color 0.15s ease;
+}
+
+.btn-sentence-nav:hover {
+  background-color: #dbeafe;
 }
 
 .active-step-indicator {
