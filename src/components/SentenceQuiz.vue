@@ -81,16 +81,19 @@
         <div class="sentence-card">
           <!-- Arabic Sentence with Target Span Highlighted -->
           <div class="arabic-sentence arabic-font">
-            <template v-for="(token, tIdx) in currentSentence.tokens" :key="tIdx">
+            <template v-for="(item, tIdx) in displayTokens" :key="tIdx">
+              <span v-if="item.leadingPunct" class="token-punct">{{ item.leadingPunct }}</span>
               <span
                 v-if="isTokenInActiveSpan(tIdx)"
                 class="arabic-highlight"
               >
-                {{ token }}
+                {{ item.token }}
               </span>
               <span v-else class="token-normal">
-                {{ token }}
+                {{ item.token }}
               </span>
+              <span v-if="item.trailingPunct" class="token-punct">{{ item.trailingPunct }}</span>
+              <template v-if="tIdx < displayTokens.length - 1">&nbsp;</template>
             </template>
           </div>
 
@@ -280,6 +283,58 @@ const isUnitSolved = computed(() => {
 const activeSpanText = computed(() => {
   const [start, end] = currentSpan.value.span;
   return currentSentence.value.tokens.slice(start, end + 1).join(" ");
+});
+
+const LEAD_PUNCT_RE = /^([﴿«("']+)/;
+const TRAIL_PUNCT_RE = /([،؛؟.!:,»)"'﴾]+)$/;
+const HARAKAT_TATWEEL_RE = /[\u064B-\u065F\u0670\u0640]/g;
+
+function stripForAlign(s: string): string {
+  return s.replace(HARAKAT_TATWEEL_RE, "");
+}
+
+const displayTokens = computed(() => {
+  const tokens = currentSentence.value.tokens;
+  const res = tokens.map(token => ({ token, leadingPunct: "", trailingPunct: "" }));
+  const words = currentSentence.value.text.trim().split(/\s+/).filter(Boolean);
+
+  let ti = 0;
+  for (const w of words) {
+    if (ti >= tokens.length) break;
+
+    const leadMatch = w.match(LEAD_PUNCT_RE);
+    const lead = leadMatch ? leadMatch[1] : "";
+    const rest = w.slice(lead.length);
+
+    const trailMatch = rest.match(TRAIL_PUNCT_RE);
+    const trail = trailMatch ? trailMatch[1] : "";
+    const core = trail ? rest.slice(0, rest.length - trail.length) : rest;
+    const coreNorm = stripForAlign(core);
+
+    if (!coreNorm) {
+      if (ti > 0 && !res[ti - 1].trailingPunct) {
+        res[ti - 1].trailingPunct += w;
+      }
+      continue;
+    }
+
+    const startTi = ti;
+    let accLen = 0;
+    while (ti < tokens.length) {
+      accLen += stripForAlign(tokens[ti]).length;
+      ti++;
+      if (accLen >= coreNorm.length) break;
+    }
+
+    if (lead && startTi < res.length) {
+      res[startTi].leadingPunct = lead;
+    }
+    if (trail && ti - 1 >= startTi) {
+      res[ti - 1].trailingPunct = trail;
+    }
+  }
+
+  return res;
 });
 
 const reportUrl = computed(() => {

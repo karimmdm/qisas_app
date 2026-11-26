@@ -84,7 +84,6 @@ export const chapter23: Chapter = {
             5
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "مُضَافٌ إِلَيْهِ"
           ],
           "category": "majroorat"
@@ -146,9 +145,9 @@ export const chapter23: Chapter = {
             11
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c23_s1_b10",
@@ -202,9 +201,9 @@ export const chapter23: Chapter = {
             18
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c23_s1_b15",
@@ -323,9 +322,9 @@ export const chapter23: Chapter = {
             4
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c23_s2_b5",
@@ -412,9 +411,9 @@ export const chapter23: Chapter = {
             14
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c23_s2_b13",
@@ -746,7 +745,6 @@ export const chapter23: Chapter = {
             7
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "مُضَافٌ إِلَيْهِ"
           ],
           "category": "majroorat"
@@ -847,7 +845,6 @@ export const chapter23: Chapter = {
             6
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "مُضَافٌ إِلَيْهِ"
           ],
           "category": "majroorat"
@@ -883,7 +880,6 @@ export const chapter23: Chapter = {
             14
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "مُضَافٌ إِلَيْهِ"
           ],
           "category": "majroorat"
@@ -930,7 +926,6 @@ export const chapter23: Chapter = {
             22
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "مُضَافٌ إِلَيْهِ"
           ],
           "category": "majroorat"

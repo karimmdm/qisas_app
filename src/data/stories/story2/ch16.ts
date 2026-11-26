@@ -129,9 +129,9 @@ export const chapter16: Chapter = {
             8
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c16_s1_b11",
@@ -292,9 +292,9 @@ export const chapter16: Chapter = {
             8
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c16_s2_b11",
@@ -467,9 +467,9 @@ export const chapter16: Chapter = {
             9
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c16_s3_b13",
@@ -601,7 +601,6 @@ export const chapter16: Chapter = {
             5
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ أَنَّ"
           ],
           "category": "tarkib_jumla"
@@ -1442,7 +1441,6 @@ export const chapter16: Chapter = {
             17
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "نَائِبُ فَاعِلٍ"
           ],
           "category": "tarkib_jumla"
@@ -1579,9 +1577,9 @@ export const chapter16: Chapter = {
             10
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c16_s8_b11",
@@ -1612,9 +1610,9 @@ export const chapter16: Chapter = {
             14
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -2112,9 +2110,9 @@ export const chapter16: Chapter = {
             10
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c16_s10_b11",
@@ -2145,7 +2143,7 @@ export const chapter16: Chapter = {
             15
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
           "category": "tarkib_jumla"
         },
@@ -2240,7 +2238,6 @@ export const chapter16: Chapter = {
             1
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "حَالٌ"
           ],
           "category": "mansoobat"

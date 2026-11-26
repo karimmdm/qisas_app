@@ -54,7 +54,6 @@ export const chapter17: Chapter = {
             3
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ كَانَ مُقَدَّمٌ"
           ],
           "category": "tarkib_jumla"
@@ -281,7 +280,6 @@ export const chapter17: Chapter = {
             9
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ أَنَّ"
           ],
           "category": "tarkib_jumla"
@@ -337,7 +335,6 @@ export const chapter17: Chapter = {
             15
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ أَنَّ"
           ],
           "category": "tarkib_jumla"
@@ -481,9 +478,9 @@ export const chapter17: Chapter = {
             5
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c17_s3_b6",
@@ -586,9 +583,9 @@ export const chapter17: Chapter = {
             15
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c17_s3_b15",
@@ -597,7 +594,6 @@ export const chapter17: Chapter = {
             17
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "حَالٌ"
           ],
           "category": "majroorat"
@@ -631,9 +627,9 @@ export const chapter17: Chapter = {
             21
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -897,9 +893,9 @@ export const chapter17: Chapter = {
             20
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c17_s4_b20",
@@ -953,9 +949,9 @@ export const chapter17: Chapter = {
             26
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c17_s4_b25",
@@ -997,9 +993,9 @@ export const chapter17: Chapter = {
             32
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -1110,9 +1106,9 @@ export const chapter17: Chapter = {
             5
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c17_s5_b6",
@@ -1324,7 +1320,6 @@ export const chapter17: Chapter = {
             25
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ كَانَ"
           ],
           "category": "tarkib_jumla"
@@ -1493,7 +1488,6 @@ export const chapter17: Chapter = {
             41
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ كَانَ"
           ],
           "category": "tarkib_jumla"
@@ -1533,7 +1527,6 @@ export const chapter17: Chapter = {
             2
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ كَانَ"
           ],
           "category": "tarkib_jumla"
@@ -1641,7 +1634,6 @@ export const chapter17: Chapter = {
             4
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ كَانَ"
           ],
           "category": "tarkib_jumla"
@@ -1750,7 +1742,6 @@ export const chapter17: Chapter = {
             4
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ كَانَ"
           ],
           "category": "tarkib_jumla"
@@ -1898,9 +1889,9 @@ export const chapter17: Chapter = {
             7
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c17_s9_b8",
@@ -1966,9 +1957,9 @@ export const chapter17: Chapter = {
             14
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c17_s9_b14",

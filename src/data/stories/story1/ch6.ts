@@ -1050,8 +1050,7 @@ export const chapter6: Chapter = {
             9
           ],
           "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ",
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
           "category": "tarkib_jumla"
         }

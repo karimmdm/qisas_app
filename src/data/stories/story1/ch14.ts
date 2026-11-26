@@ -2626,8 +2626,7 @@ export const chapter14: Chapter = {
             7
           ],
           "roles": [
-            "صِفَةٌ (نَعْتٌ)",
-            "شِبْهُ جُمْلَةٍ"
+            "صِفَةٌ (نَعْتٌ)"
           ],
           "category": "tawabi"
         },

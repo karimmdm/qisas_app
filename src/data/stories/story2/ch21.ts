@@ -90,9 +90,9 @@ export const chapter21: Chapter = {
             7
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -180,9 +180,9 @@ export const chapter21: Chapter = {
             7
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -270,9 +270,9 @@ export const chapter21: Chapter = {
             6
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s3_b7",
@@ -325,9 +325,9 @@ export const chapter21: Chapter = {
             12
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -432,9 +432,9 @@ export const chapter21: Chapter = {
             8
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s4_b6",
@@ -465,9 +465,9 @@ export const chapter21: Chapter = {
             13
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s4_b9",
@@ -487,9 +487,9 @@ export const chapter21: Chapter = {
             17
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s4_b11",
@@ -589,7 +589,6 @@ export const chapter21: Chapter = {
             33
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "صِلَةُ الْمَوْصُولِ"
           ],
           "category": "majroorat"
@@ -630,9 +629,9 @@ export const chapter21: Chapter = {
             38
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s4_b23",
@@ -757,7 +756,6 @@ export const chapter21: Chapter = {
             8
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ أَنَّ"
           ],
           "category": "tarkib_jumla"
@@ -780,9 +778,9 @@ export const chapter21: Chapter = {
             11
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s5_b11",
@@ -881,7 +879,6 @@ export const chapter21: Chapter = {
             3
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "نَائِبُ فَاعِلٍ"
           ],
           "category": "tarkib_jumla"
@@ -932,7 +929,6 @@ export const chapter21: Chapter = {
             8
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "نَائِبُ فَاعِلٍ"
           ],
           "category": "tarkib_jumla"
@@ -989,9 +985,9 @@ export const chapter21: Chapter = {
             14
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s6_b13",
@@ -1056,9 +1052,9 @@ export const chapter21: Chapter = {
             22
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -1134,9 +1130,9 @@ export const chapter21: Chapter = {
             6
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s7_b6",
@@ -1145,7 +1141,7 @@ export const chapter21: Chapter = {
             8
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "صِفَةٌ (نَعْتٌ)"
           ],
           "category": "tawabi"
         },
@@ -1213,7 +1209,6 @@ export const chapter21: Chapter = {
             2
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ إِنَّ"
           ],
           "category": "tarkib_jumla"
@@ -1225,9 +1220,9 @@ export const chapter21: Chapter = {
             4
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s8_b4",
@@ -1269,7 +1264,6 @@ export const chapter21: Chapter = {
             9
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "خَبَرُ إِنَّ"
           ],
           "category": "tarkib_jumla"
@@ -1281,9 +1275,9 @@ export const chapter21: Chapter = {
             11
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s8_b9",
@@ -1445,9 +1439,9 @@ export const chapter21: Chapter = {
             13
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -1536,9 +1530,9 @@ export const chapter21: Chapter = {
             6
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s10_b7",
@@ -1592,9 +1586,9 @@ export const chapter21: Chapter = {
             13
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         }
       ]
     },
@@ -1652,7 +1646,6 @@ export const chapter21: Chapter = {
             4
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "نَائِبُ فَاعِلٍ"
           ],
           "category": "tarkib_jumla"
@@ -1698,9 +1691,9 @@ export const chapter21: Chapter = {
             10
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s11_b8",
@@ -1709,7 +1702,6 @@ export const chapter21: Chapter = {
             12
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ",
             "نَائِبُ فَاعِلٍ"
           ],
           "category": "tarkib_jumla"
@@ -1897,9 +1889,9 @@ export const chapter21: Chapter = {
             12
           ],
           "roles": [
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
-          "category": "majroorat"
+          "category": "tarkib_jumla"
         },
         {
           "id": "s2_c21_s12_b11",

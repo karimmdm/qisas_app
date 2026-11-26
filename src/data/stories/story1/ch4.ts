@@ -212,8 +212,7 @@ export const chapter4: Chapter = {
             4
           ],
           "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ",
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
           "category": "tarkib_jumla"
         },
@@ -647,8 +646,7 @@ export const chapter4: Chapter = {
             7
           ],
           "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ",
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
           "category": "tarkib_jumla"
         }

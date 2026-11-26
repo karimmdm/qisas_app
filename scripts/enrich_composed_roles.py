@@ -18,19 +18,32 @@ def clean_arabic(text: str) -> str:
     return re.sub(r"[إأآٱ]", "ا", strip_harakat(text)).strip()
 
 
-def process_chapter_file(filepath: str) -> tuple[int, int, int, int]:
+def process_chapter_file(filepath: str) -> tuple[int, int, int, int, int]:
     chapter, prefix, suffix = load_chapter_ts(filepath)
-    fixed_harf_jarr = added_ishara = added_mawsool = added_damir = 0
+    fixed_harf_jarr = added_ishara = added_mawsool = added_damir = fixed_shibh = 0
 
     for sentence in chapter.get("sentences", []):
         tokens = sentence.get("tokens", [])
         for b in sentence.get("breakdown", []):
+            roles = b.get("roles", [])
+
+            # Clean up vague "شِبْهُ جُمْلَةٍ" phrase-type tag
+            if "شِبْهُ جُمْلَةٍ" in roles:
+                if len(roles) > 1:
+                    b["roles"] = [r for r in roles if r != "شِبْهُ جُمْلَةٍ"]
+                elif b.get("category") == "tawabi":
+                    b["roles"] = ["صِفَةٌ (نَعْتٌ)"]
+                else:
+                    b["roles"] = ["مُتَعَلِّقٌ بِالْفِعْلِ"]
+                    b["category"] = "tarkib_jumla"
+                roles = b["roles"]
+                fixed_shibh += 1
+
             span = b.get("span", [])
             if len(span) != 2 or span[0] != span[1] or span[0] >= len(tokens):
                 continue
 
             tok_clean = clean_arabic(tokens[span[0]])
-            roles = b.get("roles", [])
 
             if "حَرْفُ جَرٍّ" in roles and tok_clean in {"هو", "هم", "هما", "هي", "هن"}:
                 roles = [r for r in roles if r != "حَرْفُ جَرٍّ"]
@@ -58,14 +71,14 @@ def process_chapter_file(filepath: str) -> tuple[int, int, int, int]:
                             added_damir += 1
                     break
 
-    if fixed_harf_jarr or added_ishara or added_mawsool or added_damir:
+    if fixed_harf_jarr or added_ishara or added_mawsool or added_damir or fixed_shibh:
         save_chapter_ts(filepath, chapter, prefix, suffix)
 
-    return fixed_harf_jarr, added_ishara, added_mawsool, added_damir
+    return fixed_harf_jarr, added_ishara, added_mawsool, added_damir, fixed_shibh
 
 
 def main() -> None:
-    totals = [0, 0, 0, 0]
+    totals = [0, 0, 0, 0, 0]
     for _, _, ch_file in iter_chapter_files():
         counts = process_chapter_file(ch_file)
         for i, c in enumerate(counts):
@@ -73,7 +86,7 @@ def main() -> None:
 
     print(
         f"Enrichment complete — fixed_harf_jarr={totals[0]}, "
-        f"ishara={totals[1]}, mawsool={totals[2]}, damir={totals[3]}"
+        f"ishara={totals[1]}, mawsool={totals[2]}, damir={totals[3]}, fixed_shibh_jumla={totals[4]}"
     )
 
 

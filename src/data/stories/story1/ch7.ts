@@ -1598,8 +1598,7 @@ export const chapter7: Chapter = {
             8
           ],
           "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ",
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
           "category": "tarkib_jumla"
         }
@@ -1728,8 +1727,7 @@ export const chapter7: Chapter = {
             8
           ],
           "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ",
-            "شِبْهُ جُمْلَةٍ"
+            "مُتَعَلِّقٌ بِالْفِعْلِ"
           ],
           "category": "tarkib_jumla"
         }
