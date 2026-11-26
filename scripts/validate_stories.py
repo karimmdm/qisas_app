@@ -24,27 +24,33 @@ def validate_chapter(chapter: dict) -> list[str]:
             errors.append(f"Sentence {s_id} has no tokens")
             continue
 
-        breakdown = sentence.get("breakdown", [])
-        if not breakdown:
-            errors.append(f"Sentence {s_id} has no breakdown spans")
+        root_nodes = sentence.get("tree") or sentence.get("breakdown") or []
+        if not root_nodes:
+            errors.append(f"Sentence {s_id} has no tree or breakdown spans")
             continue
 
-        for b_idx, b in enumerate(breakdown):
-            b_id = b.get("id", f"{s_id}_b{b_idx}")
-            span = b.get("span")
-            if not span or len(span) != 2:
-                errors.append(f"[{s_id}] Span {b_id} must have [start, end]")
-                continue
+        def _check_nodes(nodes: list[dict]) -> None:
+            for b_idx, b in enumerate(nodes):
+                b_id = b.get("id", f"{s_id}_b{b_idx}")
+                span = b.get("span")
+                if not span or len(span) != 2:
+                    errors.append(f"[{s_id}] Span {b_id} must have [start, end]")
+                    continue
 
-            start, end = span[0], span[1]
-            if start < 0 or end >= num_tokens or start > end:
-                errors.append(
-                    f"[{s_id}] Span {b_id} ({start}, {end}) is out of bounds for token count ({num_tokens}): "
-                    f"tokens are {tokens}"
-                )
+                start, end = span[0], span[1]
+                if start < 0 or end >= num_tokens or start > end:
+                    errors.append(
+                        f"[{s_id}] Span {b_id} ({start}, {end}) is out of bounds for token count ({num_tokens}): "
+                        f"tokens are {tokens}"
+                    )
 
-            if not b.get("roles"):
-                errors.append(f"[{s_id}] Span {b_id} must have at least one role")
+                if not b.get("roles"):
+                    errors.append(f"[{s_id}] Span {b_id} must have at least one role")
+
+                if b.get("children"):
+                    _check_nodes(b["children"])
+
+        _check_nodes(root_nodes)
 
     return errors
 

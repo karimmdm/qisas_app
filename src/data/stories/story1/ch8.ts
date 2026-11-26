@@ -26,7 +26,7 @@ export const chapter8: Chapter = {
         "لَا",
         "يَمُوتُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "c8_s1_b1",
           "span": [
@@ -83,28 +83,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "c8_s1_b6",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "خَبَرُ إِنَّ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "c8_s1_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "c8_s1_b8",
           "span": [
             5,
@@ -113,7 +91,31 @@ export const chapter8: Chapter = {
           "roles": [
             "مُرَكَّبٌ إِضَافِيٌّ"
           ],
-          "category": "murakkabat"
+          "category": "murakkabat",
+          "children": [
+            {
+              "id": "c8_s1_b6",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "خَبَرُ إِنَّ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "c8_s1_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         },
         {
           "id": "c8_s1_b9",
@@ -160,28 +162,6 @@ export const chapter8: Chapter = {
           "category": "marfooat"
         },
         {
-          "id": "c8_s1_b13",
-          "span": [
-            11,
-            11
-          ],
-          "roles": [
-            "حَرْفُ نَفْيٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "c8_s1_b14",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "فِعْلٌ وَفَاعِلٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
           "id": "c8_s1_b15",
           "span": [
             11,
@@ -191,7 +171,31 @@ export const chapter8: Chapter = {
             "صِفَةٌ (نَعْتٌ)",
             "جُمْلَةٌ فِعْلِيَّةٌ"
           ],
-          "category": "tawabi"
+          "category": "tawabi",
+          "children": [
+            {
+              "id": "c8_s1_b13",
+              "span": [
+                11,
+                11
+              ],
+              "roles": [
+                "حَرْفُ نَفْيٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "c8_s1_b14",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "فِعْلٌ وَفَاعِلٌ"
+              ],
+              "category": "afal_tammah"
+            }
+          ]
         }
       ]
     },
@@ -216,7 +220,7 @@ export const chapter8: Chapter = {
         "ـهُ",
         "شَيْءٌ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "c8_s2_b1",
           "span": [
@@ -392,7 +396,7 @@ export const chapter8: Chapter = {
         "رَبُّ",
         "الْقَمَرِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "c8_s3_b1",
           "span": [
@@ -449,28 +453,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "c8_s3_b6",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "خَبَرُ إِنَّ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "c8_s3_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "c8_s3_b8",
           "span": [
             5,
@@ -479,7 +461,31 @@ export const chapter8: Chapter = {
           "roles": [
             "مُرَكَّبٌ إِضَافِيٌّ"
           ],
-          "category": "murakkabat"
+          "category": "murakkabat",
+          "children": [
+            {
+              "id": "c8_s3_b6",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "خَبَرُ إِنَّ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "c8_s3_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         },
         {
           "id": "c8_s3_b9",
@@ -515,28 +521,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "c8_s3_b12",
-          "span": [
-            10,
-            10
-          ],
-          "roles": [
-            "خَبَرُ إِنَّ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "c8_s3_b13",
-          "span": [
-            11,
-            11
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "c8_s3_b14",
           "span": [
             10,
@@ -545,7 +529,31 @@ export const chapter8: Chapter = {
           "roles": [
             "مُرَكَّبٌ إِضَافِيٌّ"
           ],
-          "category": "murakkabat"
+          "category": "murakkabat",
+          "children": [
+            {
+              "id": "c8_s3_b12",
+              "span": [
+                10,
+                10
+              ],
+              "roles": [
+                "خَبَرُ إِنَّ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "c8_s3_b13",
+              "span": [
+                11,
+                11
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         }
       ]
     },
@@ -566,7 +574,7 @@ export const chapter8: Chapter = {
         "رَبُّ",
         "الْعَالَمِينَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "c8_s4_b1",
           "span": [
@@ -601,28 +609,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "c8_s4_b4",
-          "span": [
-            3,
-            3
-          ],
-          "roles": [
-            "خَبَرُ إِنَّ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "c8_s4_b5",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "c8_s4_b6",
           "span": [
             3,
@@ -631,7 +617,31 @@ export const chapter8: Chapter = {
           "roles": [
             "مُرَكَّبٌ إِضَافِيٌّ"
           ],
-          "category": "murakkabat"
+          "category": "murakkabat",
+          "children": [
+            {
+              "id": "c8_s4_b4",
+              "span": [
+                3,
+                3
+              ],
+              "roles": [
+                "خَبَرُ إِنَّ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "c8_s4_b5",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         },
         {
           "id": "c8_s4_b7",
@@ -667,29 +677,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "c8_s4_b10",
-          "span": [
-            8,
-            8
-          ],
-          "roles": [
-            "خَبَرُ إِنَّ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "c8_s4_b11",
-          "span": [
-            9,
-            9
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat",
-          "taqdeer": "مَجْرُورٌ بِالْيَاءِ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ"
-        },
-        {
           "id": "c8_s4_b12",
           "span": [
             8,
@@ -698,7 +685,32 @@ export const chapter8: Chapter = {
           "roles": [
             "مُرَكَّبٌ إِضَافِيٌّ"
           ],
-          "category": "murakkabat"
+          "category": "murakkabat",
+          "children": [
+            {
+              "id": "c8_s4_b10",
+              "span": [
+                8,
+                8
+              ],
+              "roles": [
+                "خَبَرُ إِنَّ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "c8_s4_b11",
+              "span": [
+                9,
+                9
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat",
+              "taqdeer": "مَجْرُورٌ بِالْيَاءِ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ"
+            }
+          ]
         }
       ]
     },
@@ -719,7 +731,7 @@ export const chapter8: Chapter = {
         "وَ",
         "خَلِيلًا"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "c8_s5_b1",
           "span": [
@@ -854,7 +866,7 @@ export const chapter8: Chapter = {
         "عِبَادَةِ",
         "الأَصْنَامِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "c8_s6_b1",
           "span": [
@@ -922,28 +934,6 @@ export const chapter8: Chapter = {
           "category": "afal_tammah"
         },
         {
-          "id": "c8_s6_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "c8_s6_b8",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "c8_s6_b9",
           "span": [
             6,
@@ -952,7 +942,31 @@ export const chapter8: Chapter = {
           "roles": [
             "مُرَكَّبٌ إِضَافِيٌّ"
           ],
-          "category": "murakkabat"
+          "category": "murakkabat",
+          "children": [
+            {
+              "id": "c8_s6_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "c8_s6_b8",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         },
         {
           "id": "c8_s6_b10",
@@ -1000,28 +1014,6 @@ export const chapter8: Chapter = {
           "category": "huruf"
         },
         {
-          "id": "c8_s6_b14",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "c8_s6_b15",
-          "span": [
-            13,
-            13
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "c8_s6_b16",
           "span": [
             12,
@@ -1030,7 +1022,31 @@ export const chapter8: Chapter = {
           "roles": [
             "مُرَكَّبٌ إِضَافِيٌّ"
           ],
-          "category": "murakkabat"
+          "category": "murakkabat",
+          "children": [
+            {
+              "id": "c8_s6_b14",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "c8_s6_b15",
+              "span": [
+                13,
+                13
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         }
       ]
     }

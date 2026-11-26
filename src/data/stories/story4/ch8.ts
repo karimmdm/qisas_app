@@ -28,7 +28,7 @@ export const chapter8: Chapter = {
         "وَ",
         "رِفْقٍ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s1_b1",
           "span": [
@@ -74,51 +74,6 @@ export const chapter8: Chapter = {
           "category": "marfooat"
         },
         {
-          "id": "s4_c8_s1_b5",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s4_c8_s1_b6",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s1_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s1_b8",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "s4_c8_s1_b9",
           "span": [
             4,
@@ -127,7 +82,54 @@ export const chapter8: Chapter = {
           "roles": [
             "خَبَرُ كَانَ (جُمْلَةٌ فِعْلِيَّةٌ)"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s1_b5",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s4_c8_s1_b6",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s1_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s1_b8",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         },
         {
           "id": "s4_c8_s1_b10",
@@ -233,7 +235,7 @@ export const chapter8: Chapter = {
         "تَعْرِفُونَـ",
         "ـنِي"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s2_b1",
           "span": [
@@ -257,164 +259,6 @@ export const chapter8: Chapter = {
           "category": "marfooat"
         },
         {
-          "id": "s4_c8_s2_b3",
-          "span": [
-            2,
-            2
-          ],
-          "roles": [
-            "حَرْفُ نِدَاءٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s2_b4",
-          "span": [
-            3,
-            3
-          ],
-          "roles": [
-            "مُنَادَى"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s4_c8_s2_b5",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "ضَمِيرٌ مُنْفَصِلٌ",
-            "مُبْتَدَأٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "s4_c8_s2_b6",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "خَبَرٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "s4_c8_s2_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s2_b8",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "حَرْفُ عَطْفٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s2_b9",
-          "span": [
-            8,
-            8
-          ],
-          "roles": [
-            "مَعْطُوفٌ"
-          ],
-          "category": "tawabi"
-        },
-        {
-          "id": "s4_c8_s2_b10",
-          "span": [
-            9,
-            9
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s2_b11",
-          "span": [
-            10,
-            10
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s2_b12",
-          "span": [
-            11,
-            11
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s2_b13",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "حَرْفُ اسْتِفْهَامٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s2_b14",
-          "span": [
-            13,
-            13
-          ],
-          "roles": [
-            "حَرْفُ نَفْيٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s2_b15",
-          "span": [
-            14,
-            14
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s4_c8_s2_b16",
-          "span": [
-            15,
-            15
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "mansoobat"
-        },
-        {
           "id": "s4_c8_s2_b17",
           "span": [
             2,
@@ -423,7 +267,167 @@ export const chapter8: Chapter = {
           "roles": [
             "مَقُولُ الْقَوْلِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s2_b3",
+              "span": [
+                2,
+                2
+              ],
+              "roles": [
+                "حَرْفُ نِدَاءٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s2_b4",
+              "span": [
+                3,
+                3
+              ],
+              "roles": [
+                "مُنَادَى"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s4_c8_s2_b5",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "ضَمِيرٌ مُنْفَصِلٌ",
+                "مُبْتَدَأٌ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "s4_c8_s2_b6",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "خَبَرٌ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "s4_c8_s2_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s2_b8",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "حَرْفُ عَطْفٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s2_b9",
+              "span": [
+                8,
+                8
+              ],
+              "roles": [
+                "مَعْطُوفٌ"
+              ],
+              "category": "tawabi"
+            },
+            {
+              "id": "s4_c8_s2_b10",
+              "span": [
+                9,
+                9
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s2_b11",
+              "span": [
+                10,
+                10
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s2_b12",
+              "span": [
+                11,
+                11
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s2_b13",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "حَرْفُ اسْتِفْهَامٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s2_b14",
+              "span": [
+                13,
+                13
+              ],
+              "roles": [
+                "حَرْفُ نَفْيٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s2_b15",
+              "span": [
+                14,
+                14
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s4_c8_s2_b16",
+              "span": [
+                15,
+                15
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "mansoobat"
+            }
+          ]
         }
       ]
     },
@@ -452,7 +456,7 @@ export const chapter8: Chapter = {
         "ـكُمْ",
         "شَيْئًا"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s3_b1",
           "span": [
@@ -590,73 +594,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "s4_c8_s3_b13",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "حَرْفُ نَفْيٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s3_b14",
-          "span": [
-            13,
-            13
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s4_c8_s3_b15",
-          "span": [
-            14,
-            14
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s3_b16",
-          "span": [
-            15,
-            15
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s3_b17",
-          "span": [
-            16,
-            16
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s3_b18",
-          "span": [
-            17,
-            17
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
           "id": "s4_c8_s3_b19",
           "span": [
             12,
@@ -665,7 +602,76 @@ export const chapter8: Chapter = {
           "roles": [
             "خَبَرُ إِنَّ (جُمْلَةٌ فِعْلِيَّةٌ)"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s3_b13",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "حَرْفُ نَفْيٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s3_b14",
+              "span": [
+                13,
+                13
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s4_c8_s3_b15",
+              "span": [
+                14,
+                14
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s3_b16",
+              "span": [
+                15,
+                15
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s3_b17",
+              "span": [
+                16,
+                16
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s3_b18",
+              "span": [
+                17,
+                17
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            }
+          ]
         }
       ]
     },
@@ -690,7 +696,7 @@ export const chapter8: Chapter = {
         "عَلَى",
         "اللَّهِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s4_b1",
           "span": [
@@ -826,28 +832,6 @@ export const chapter8: Chapter = {
           "category": "huruf"
         },
         {
-          "id": "s4_c8_s4_b13",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s4_b14",
-          "span": [
-            13,
-            13
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "s4_c8_s4_b15",
           "span": [
             12,
@@ -856,7 +840,31 @@ export const chapter8: Chapter = {
           "roles": [
             "شِبْهُ جُمْلَةٍ (خَبَرٌ)"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s4_b13",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s4_b14",
+              "span": [
+                13,
+                13
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            }
+          ]
         }
       ]
     },
@@ -887,7 +895,7 @@ export const chapter8: Chapter = {
         "بِـ",
         "اللَّهِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s5_b1",
           "span": [
@@ -1131,7 +1139,7 @@ export const chapter8: Chapter = {
         "قُوَّتِـ",
         "ـكُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s6_b1",
           "span": [
@@ -1295,7 +1303,7 @@ export const chapter8: Chapter = {
         "وَاحِدًا",
         "وَاحِدًا"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s7_b1",
           "span": [
@@ -1414,56 +1422,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "s4_c8_s7_b11",
-          "span": [
-            10,
-            10
-          ],
-          "roles": [
-            "حَرْفُ نَفْيٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s7_b12",
-          "span": [
-            11,
-            11
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah",
-          "sarf": {
-            "family": 2,
-            "person": "3rd",
-            "number": "singular",
-            "gender": "masc"
-          }
-        },
-        {
-          "id": "s4_c8_s7_b13",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s4_c8_s7_b14",
-          "span": [
-            13,
-            13
-          ],
-          "roles": [
-            "تَوْكِيدٌ لَفْظِيٌّ"
-          ],
-          "category": "tawabi"
-        },
-        {
           "id": "s4_c8_s7_b15",
           "span": [
             10,
@@ -1472,7 +1430,59 @@ export const chapter8: Chapter = {
           "roles": [
             "خَبَرُ إِنَّ (جُمْلَةٌ فِعْلِيَّةٌ)"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s7_b11",
+              "span": [
+                10,
+                10
+              ],
+              "roles": [
+                "حَرْفُ نَفْيٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s7_b12",
+              "span": [
+                11,
+                11
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah",
+              "sarf": {
+                "family": 2,
+                "person": "3rd",
+                "number": "singular",
+                "gender": "masc"
+              }
+            },
+            {
+              "id": "s4_c8_s7_b13",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s4_c8_s7_b14",
+              "span": [
+                13,
+                13
+              ],
+              "roles": [
+                "تَوْكِيدٌ لَفْظِيٌّ"
+              ],
+              "category": "tawabi"
+            }
+          ]
         }
       ]
     },
@@ -1496,7 +1506,7 @@ export const chapter8: Chapter = {
         "افْعَلْ",
         "كَذَا"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s8_b1",
           "span": [
@@ -1605,50 +1615,6 @@ export const chapter8: Chapter = {
           "taqdeer": "ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ"
         },
         {
-          "id": "s4_c8_s8_b10",
-          "span": [
-            9,
-            9
-          ],
-          "roles": [
-            "فِعْلُ أَمْرٍ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s4_c8_s8_b11",
-          "span": [
-            10,
-            10
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s4_c8_s8_b12",
-          "span": [
-            11,
-            11
-          ],
-          "roles": [
-            "فِعْلُ أَمْرٍ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s4_c8_s8_b13",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
           "id": "s4_c8_s8_b14",
           "span": [
             9,
@@ -1657,7 +1623,53 @@ export const chapter8: Chapter = {
           "roles": [
             "مَقُولُ الْقَوْلِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s8_b10",
+              "span": [
+                9,
+                9
+              ],
+              "roles": [
+                "فِعْلُ أَمْرٍ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s4_c8_s8_b11",
+              "span": [
+                10,
+                10
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s4_c8_s8_b12",
+              "span": [
+                11,
+                11
+              ],
+              "roles": [
+                "فِعْلُ أَمْرٍ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s4_c8_s8_b13",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            }
+          ]
         }
       ]
     },
@@ -1683,7 +1695,7 @@ export const chapter8: Chapter = {
         "لَـ",
         "ـهُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s9_b1",
           "span": [
@@ -1707,167 +1719,6 @@ export const chapter8: Chapter = {
           "category": "mansoobat"
         },
         {
-          "id": "s4_c8_s9_b3",
-          "span": [
-            2,
-            2
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah",
-          "sarf": {
-            "family": 4,
-            "person": "3rd",
-            "number": "singular",
-            "gender": "masc"
-          }
-        },
-        {
-          "id": "s4_c8_s9_b4",
-          "span": [
-            3,
-            3
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s9_b5",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s9_b6",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s9_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s4_c8_s9_b8",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s9_b9",
-          "span": [
-            8,
-            8
-          ],
-          "roles": [
-            "ضَمِيرٌ مُنْفَصِلٌ",
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat",
-          "taqdeer": "ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ"
-        },
-        {
-          "id": "s4_c8_s9_b10",
-          "span": [
-            9,
-            9
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah",
-          "sarf": {
-            "family": 2,
-            "person": "3rd",
-            "number": "singular",
-            "gender": "masc"
-          }
-        },
-        {
-          "id": "s4_c8_s9_b11",
-          "span": [
-            10,
-            10
-          ],
-          "roles": [
-            "ضَمِيرٌ مُنْفَصِلٌ",
-            "مَفْعُولٌ بِهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s4_c8_s9_b12",
-          "span": [
-            11,
-            11
-          ],
-          "roles": [
-            "حَرْفُ عَطْفٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s9_b13",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s4_c8_s9_b14",
-          "span": [
-            13,
-            13
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s9_b15",
-          "span": [
-            14,
-            14
-          ],
-          "roles": [
-            "ضَمِيرٌ مُنْفَصِلٌ",
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat",
-          "taqdeer": "ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ"
-        },
-        {
           "id": "s4_c8_s9_b16",
           "span": [
             2,
@@ -1876,7 +1727,170 @@ export const chapter8: Chapter = {
           "roles": [
             "خَبَرُ إِنَّ (جُمْلَةٌ فِعْلِيَّةٌ)"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s9_b3",
+              "span": [
+                2,
+                2
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah",
+              "sarf": {
+                "family": 4,
+                "person": "3rd",
+                "number": "singular",
+                "gender": "masc"
+              }
+            },
+            {
+              "id": "s4_c8_s9_b4",
+              "span": [
+                3,
+                3
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s9_b5",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s9_b6",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s9_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s4_c8_s9_b8",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s9_b9",
+              "span": [
+                8,
+                8
+              ],
+              "roles": [
+                "ضَمِيرٌ مُنْفَصِلٌ",
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat",
+              "taqdeer": "ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ"
+            },
+            {
+              "id": "s4_c8_s9_b10",
+              "span": [
+                9,
+                9
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah",
+              "sarf": {
+                "family": 2,
+                "person": "3rd",
+                "number": "singular",
+                "gender": "masc"
+              }
+            },
+            {
+              "id": "s4_c8_s9_b11",
+              "span": [
+                10,
+                10
+              ],
+              "roles": [
+                "ضَمِيرٌ مُنْفَصِلٌ",
+                "مَفْعُولٌ بِهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s4_c8_s9_b12",
+              "span": [
+                11,
+                11
+              ],
+              "roles": [
+                "حَرْفُ عَطْفٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s9_b13",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s4_c8_s9_b14",
+              "span": [
+                13,
+                13
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s9_b15",
+              "span": [
+                14,
+                14
+              ],
+              "roles": [
+                "ضَمِيرٌ مُنْفَصِلٌ",
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat",
+              "taqdeer": "ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ"
+            }
+          ]
         }
       ]
     },
@@ -1916,7 +1930,7 @@ export const chapter8: Chapter = {
         "يُنْذِرَـ",
         "ـكُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s4_c8_s10_b1",
           "span": [
@@ -2099,170 +2113,6 @@ export const chapter8: Chapter = {
           "category": "afal_tammah"
         },
         {
-          "id": "s4_c8_s10_b16",
-          "span": [
-            15,
-            15
-          ],
-          "roles": [
-            "حَرْفٌ مَصْدَرِيٌّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s10_b17",
-          "span": [
-            16,
-            16
-          ],
-          "roles": [
-            "فِعْلٌ مَاضٍ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s4_c8_s10_b18",
-          "span": [
-            17,
-            17
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ مُقَدَّمٌ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s4_c8_s10_b19",
-          "span": [
-            18,
-            18
-          ],
-          "roles": [
-            "فَاعِلٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "s4_c8_s10_b20",
-          "span": [
-            19,
-            19
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s10_b21",
-          "span": [
-            20,
-            20
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s10_b22",
-          "span": [
-            21,
-            21
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s10_b23",
-          "span": [
-            22,
-            22
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s10_b24",
-          "span": [
-            23,
-            23
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s4_c8_s10_b25",
-          "span": [
-            24,
-            24
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s10_b26",
-          "span": [
-            25,
-            25
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat",
-          "taqdeer": "ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ"
-        },
-        {
-          "id": "s4_c8_s10_b27",
-          "span": [
-            26,
-            26
-          ],
-          "roles": [
-            "حَرْفُ تَعْلِيلٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s4_c8_s10_b28",
-          "span": [
-            27,
-            27
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah",
-          "sarf": {
-            "family": 4,
-            "person": "3rd",
-            "number": "singular",
-            "gender": "masc"
-          }
-        },
-        {
-          "id": "s4_c8_s10_b29",
-          "span": [
-            28,
-            28
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ",
-            "ضَمِيرٌ مُتَّصِلٌ"
-          ],
-          "category": "mansoobat"
-        },
-        {
           "id": "s4_c8_s10_b30",
           "span": [
             15,
@@ -2271,7 +2121,173 @@ export const chapter8: Chapter = {
           "roles": [
             "مَصْدَرٌ مُؤَوَّلٌ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s4_c8_s10_b16",
+              "span": [
+                15,
+                15
+              ],
+              "roles": [
+                "حَرْفٌ مَصْدَرِيٌّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s10_b17",
+              "span": [
+                16,
+                16
+              ],
+              "roles": [
+                "فِعْلٌ مَاضٍ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s4_c8_s10_b18",
+              "span": [
+                17,
+                17
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ مُقَدَّمٌ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s4_c8_s10_b19",
+              "span": [
+                18,
+                18
+              ],
+              "roles": [
+                "فَاعِلٌ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "s4_c8_s10_b20",
+              "span": [
+                19,
+                19
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s10_b21",
+              "span": [
+                20,
+                20
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s10_b22",
+              "span": [
+                21,
+                21
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s10_b23",
+              "span": [
+                22,
+                22
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s10_b24",
+              "span": [
+                23,
+                23
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s4_c8_s10_b25",
+              "span": [
+                24,
+                24
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s10_b26",
+              "span": [
+                25,
+                25
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat",
+              "taqdeer": "ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ"
+            },
+            {
+              "id": "s4_c8_s10_b27",
+              "span": [
+                26,
+                26
+              ],
+              "roles": [
+                "حَرْفُ تَعْلِيلٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s4_c8_s10_b28",
+              "span": [
+                27,
+                27
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah",
+              "sarf": {
+                "family": 4,
+                "person": "3rd",
+                "number": "singular",
+                "gender": "masc"
+              }
+            },
+            {
+              "id": "s4_c8_s10_b29",
+              "span": [
+                28,
+                28
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ",
+                "ضَمِيرٌ مُتَّصِلٌ"
+              ],
+              "category": "mansoobat"
+            }
+          ]
         }
       ]
     }

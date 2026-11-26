@@ -36,6 +36,7 @@ import TableOfContents, { type StoryTabItem, type ChapterItem } from "./componen
 import SentenceQuiz from "./components/SentenceQuiz.vue";
 import { STORIES } from "./data/stories";
 import type { Chapter } from "./types/grammar";
+import { getSentenceSpans } from "./utils/tarkib";
 import {
   loadProgress,
   markSpanCompleted,
@@ -208,7 +209,7 @@ function handleSpanSolved(payload: {
 
   const sIdx = currentCh.sentences.findIndex((s) => s.id === payload.sentenceId);
   const sentence = currentCh.sentences[sIdx];
-  const spanIdx = sentence?.breakdown.findIndex((b) => b.id === payload.spanId) ?? 0;
+  const spanIdx = sentence ? getSentenceSpans(sentence).findIndex((b) => b.id === payload.spanId) : 0;
 
   const nextSpanIdx = payload.isSentenceFinished ? 0 : spanIdx + 1;
   const nextSentence = payload.isSentenceFinished

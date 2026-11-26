@@ -253,17 +253,32 @@ def detect_sighah(tok: str, tense: str) -> tuple[str, Optional[str], str, list[d
     return ("3rd", "masc", "singular", [])
 
 
+def iter_span_nodes(nodes: list[dict]):
+    """Yield breakdown/tree nodes recursively (pre-order)."""
+    for node in nodes:
+        yield node
+        if node.get("children"):
+            yield from iter_span_nodes(node["children"])
+
+
 def process_chapter(filepath: str, dry_run: bool = False) -> list[tuple[str, int, str, str, str]]:
     chapter, prefix, suffix = load_chapter_ts(filepath)
     found = []
 
     for sent in chapter.get("sentences", []):
         tokens = sent.get("tokens", [])
-        for b in sent.get("breakdown", []):
+        all_nodes = list(iter_span_nodes(sent.get("breakdown", []))) + list(
+            iter_span_nodes(sent.get("tree", []))
+        )
+        for b in all_nodes:
             if b.get("category") not in ("afal_tammah", "afal_naqisah"):
                 continue
             span = b.get("span", [])
-            if len(span) != 2 or span[0] != span[1] or span[0] >= len(tokens):
+            if len(span) != 2 or span[1] >= len(tokens):
+                continue
+            is_single_verb = span[0] == span[1]
+            is_verb_with_pronoun = span[1] == span[0] + 1 and tokens[span[1]].startswith("ـ")
+            if not (is_single_verb or is_verb_with_pronoun):
                 continue
 
             tok = tokens[span[0]]

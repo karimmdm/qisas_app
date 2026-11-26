@@ -26,7 +26,7 @@ export const chapter25: Chapter = {
         "يُغَيِّرْ",
         "ـهُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c25_s1_b1",
           "span": [
@@ -148,7 +148,13 @@ export const chapter25: Chapter = {
             "فِعْلٌ مُضَارِعٌ",
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 2,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         }
       ]
     },
@@ -170,7 +176,7 @@ export const chapter25: Chapter = {
         "يَخَافُـ",
         "ـهُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c25_s2_b1",
           "span": [
@@ -293,7 +299,7 @@ export const chapter25: Chapter = {
         "أَوَامِرَ",
         "اللَّهِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c25_s3_b1",
           "span": [
@@ -446,7 +452,7 @@ export const chapter25: Chapter = {
         "مَعَ",
         "الصَّالِحِينَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c25_s4_b1",
           "span": [
@@ -853,7 +859,7 @@ export const chapter25: Chapter = {
         "بِـ",
         "ـالصَّالِحِينَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c25_s5_b1",
           "span": [
@@ -966,7 +972,13 @@ export const chapter25: Chapter = {
             "فَاعِلٌ",
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 2,
+            "person": "2nd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c25_s5_b11",
@@ -1078,7 +1090,13 @@ export const chapter25: Chapter = {
           "roles": [
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 5,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c25_s5_b21",
@@ -1112,7 +1130,13 @@ export const chapter25: Chapter = {
             "فِعْلُ أَمْرٍ",
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "2nd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c25_s5_b24",
@@ -1159,7 +1183,7 @@ export const chapter25: Chapter = {
         "وَ",
         "سَلَّمَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c25_s6_b1",
           "span": [
@@ -1170,7 +1194,13 @@ export const chapter25: Chapter = {
             "فِعْلٌ مَاضٍ",
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 5,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c25_s6_b2",
@@ -1215,7 +1245,13 @@ export const chapter25: Chapter = {
             "فِعْلٌ مَاضٍ",
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "afal_tammah"
+          "category": "afal_tammah",
+          "sarf": {
+            "family": 4,
+            "person": "3rd",
+            "number": "singular",
+            "gender": "masc"
+          }
         },
         {
           "id": "s2_c25_s6_b6",

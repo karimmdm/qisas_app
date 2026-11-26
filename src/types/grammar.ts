@@ -305,6 +305,8 @@ export interface BreakdownSpan {
   note?: string;
   /** Optional Sarf metadata for derived verbs (Forms II–X) */
   sarf?: SarfInfo;
+  /** Optional nested child constituents for top-down (v2) Tarkib */
+  children?: BreakdownSpan[];
 }
 
 export interface Sentence {
@@ -314,8 +316,10 @@ export interface Sentence {
   translation: string;
   /** Segmented morpheme tokens in visual order */
   tokens: string[];
-  /** Breakdown spans corresponding to Tarkib table rows */
-  breakdown: BreakdownSpan[];
+  /** Breakdown spans corresponding to Tarkib table rows (legacy v1) */
+  breakdown?: BreakdownSpan[];
+  /** Top-down Tarkib tree (v2, walked pre-order depth-first) */
+  tree?: BreakdownSpan[];
 }
 
 export interface Chapter {

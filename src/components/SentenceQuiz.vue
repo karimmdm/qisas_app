@@ -48,14 +48,14 @@
           >
             ⚑ Report
           </a>
-          <span class="active-step-indicator">{{ currentSpanIndex + 1 }} / {{ currentSentence.breakdown.length }}</span>
+          <span class="active-step-indicator">{{ currentSpanIndex + 1 }} / {{ activeSpans.length }}</span>
         </div>
       </div>
 
       <!-- Segmented Bar for Sentence Constituents -->
       <div class="segmented-track" role="tablist" aria-label="Sentence Units">
         <button
-          v-for="(span, idx) in currentSentence.breakdown"
+          v-for="(span, idx) in activeSpans"
           :key="span.id"
           type="button"
           @click="jumpToSpan(idx)"
@@ -69,7 +69,7 @@
               : 'is-pending',
             canNavigateToSpan(idx) ? 'is-clickable' : ''
           ]"
-          :title="`Unit ${idx + 1} of ${currentSentence.breakdown.length}`"
+          :title="`Unit ${idx + 1} of ${activeSpans.length}`"
         ></button>
       </div>
     </header>
@@ -79,21 +79,12 @@
       <!-- TOP PINNED: Sentence Display -->
       <div class="quiz-top-section">
         <div class="sentence-card">
-          <!-- Arabic Sentence with Target Span Highlighted -->
+          <!-- Arabic Sentence with Contiguous Target Span Highlighted -->
           <div class="arabic-sentence arabic-font">
             <template v-for="(item, tIdx) in displayTokens" :key="tIdx">
-              <span v-if="item.leadingPunct" class="token-punct">{{ item.leadingPunct }}</span>
-              <span
-                v-if="isTokenInActiveSpan(tIdx)"
-                class="arabic-highlight"
-              >
-                {{ item.token }}
-              </span>
-              <span v-else class="token-normal">
-                {{ item.token }}
-              </span>
-              <span v-if="item.trailingPunct" class="token-punct">{{ item.trailingPunct }}</span>
-              <template v-if="tIdx < displayTokens.length - 1">&nbsp;</template>
+              <span v-if="item.leadingPunct" class="token-punct">{{ item.leadingPunct }}</span><span
+                :class="getTokenClass(tIdx)"
+              >{{ item.token }}</span><span v-if="item.trailingPunct" class="token-punct">{{ item.trailingPunct }}</span><template v-if="tIdx < displayTokens.length - 1 && !(tIdx >= currentSpan.span[0] && tIdx < currentSpan.span[1])">&nbsp;</template>
             </template>
           </div>
 
@@ -119,7 +110,9 @@
               {{ isSarfSolved ? sarfSolvedSummary : 'Identify Sarf (Family · Person · Gender · Number)' }}
             </span>
           </span>
-          <span class="sarf-trigger-cta">{{ isSarfSolved ? 'Solved' : 'Open →' }}</span>
+          <span class="sarf-trigger-cta">
+            {{ isSarfSolved ? 'Solved' : isNahwSolved ? 'Complete to continue →' : 'Open →' }}
+          </span>
         </button>
 
         <!-- Constituent Roles Composition Prompt -->
@@ -185,6 +178,7 @@ import type { Chapter, BreakdownSpan, Sentence, GrammarRole, SarfFamily, SarfVar
 import { CATEGORY_POOLS } from "../types/grammar";
 import { isSpanCompleted } from "../services/storage";
 import { buildFlagUrl, isReportingConfigured } from "../config/reporting";
+import { getSentenceSpans } from "../utils/tarkib";
 import SarfModal from "./SarfModal.vue";
 
 const props = defineProps<{
@@ -220,9 +214,10 @@ function syncStartingPosition() {
 syncStartingPosition();
 
 const currentSentence = computed<Sentence>(() => props.chapter.sentences[currentSentenceIndex.value]);
-const currentSpan = computed<BreakdownSpan>(() => currentSentence.value.breakdown[currentSpanIndex.value]);
+const activeSpans = computed<BreakdownSpan[]>(() => getSentenceSpans(currentSentence.value));
+const currentSpan = computed<BreakdownSpan>(() => activeSpans.value[currentSpanIndex.value]);
 
-const isLastSpanOfSentence = computed(() => currentSpanIndex.value === currentSentence.value.breakdown.length - 1);
+const isLastSpanOfSentence = computed(() => currentSpanIndex.value === activeSpans.value.length - 1);
 const isLastSentenceOfChapter = computed(() => currentSentenceIndex.value === props.chapter.sentences.length - 1);
 
 const nextButtonLabel = computed(() => {
@@ -240,7 +235,7 @@ const completedSpansInSentence = ref<Set<string>>(new Set());
 
 function refreshCompletedSpans() {
   const ids = new Set<string>();
-  currentSentence.value.breakdown.forEach(b => {
+  activeSpans.value.forEach(b => {
     if (isSpanCompleted(b.id)) {
       ids.add(b.id);
     }
@@ -254,12 +249,12 @@ function isSpanDone(spanId: string): boolean {
 
 function canNavigateToSpan(idx: number): boolean {
   if (idx === currentSpanIndex.value) return true;
-  const span = currentSentence.value.breakdown[idx];
+  const span = activeSpans.value[idx];
   if (!span) return false;
   if (isSpanDone(span.id)) return true;
 
   // The first uncompleted span in this sentence is also reachable
-  const firstUncompletedIdx = currentSentence.value.breakdown.findIndex(s => !isSpanDone(s.id));
+  const firstUncompletedIdx = activeSpans.value.findIndex(s => !isSpanDone(s.id));
   return idx === firstUncompletedIdx;
 }
 
@@ -337,6 +332,17 @@ const displayTokens = computed(() => {
   return res;
 });
 
+function getTokenClass(tIdx: number): string[] {
+  const [start, end] = currentSpan.value.span;
+  if (tIdx < start || tIdx > end) return ["token-normal"];
+  if (start === end) return ["arabic-highlight"];
+  const classes = ["arabic-highlight"];
+  if (tIdx === start) classes.push("is-span-start");
+  else if (tIdx === end) classes.push("is-span-end");
+  else classes.push("is-span-mid");
+  return classes;
+}
+
 const reportUrl = computed(() => {
   if (!isReportingConfigured()) return "";
   return buildFlagUrl({
@@ -345,7 +351,7 @@ const reportUrl = computed(() => {
     sentenceOrder: currentSentence.value.order,
     sentenceId: currentSentence.value.id,
     unitIndex: currentSpanIndex.value + 1,
-    totalUnits: currentSentence.value.breakdown.length,
+    totalUnits: activeSpans.value.length,
     spanId: currentSpan.value.id,
     tokenText: activeSpanText.value,
   });
@@ -422,11 +428,6 @@ watch(
   },
   { immediate: true }
 );
-
-function isTokenInActiveSpan(tokenIndex: number): boolean {
-  const [start, end] = currentSpan.value.span;
-  return tokenIndex >= start && tokenIndex <= end;
-}
 
 function isOptionCorrect(option: GrammarRole): boolean {
   return selectedRoles.value.includes(option);
@@ -731,6 +732,29 @@ function skipToNextSentence() {
   vertical-align: middle;
   box-shadow: 0 2px 4px rgba(234, 179, 8, 0.15);
   transition: all 0.2s ease;
+}
+
+.arabic-highlight.is-span-start {
+  border-radius: 0 14px 14px 0;
+  border-left: none;
+  margin-left: 0;
+  padding-left: 0.22em;
+}
+
+.arabic-highlight.is-span-mid {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  margin: 0;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.arabic-highlight.is-span-end {
+  border-radius: 14px 0 0 14px;
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0.22em;
 }
 
 .token-normal {

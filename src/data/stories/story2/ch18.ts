@@ -29,7 +29,7 @@ export const chapter18: Chapter = {
         "عَرَفَـ",
         "ـهُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s1_b1",
           "span": [
@@ -222,7 +222,7 @@ export const chapter18: Chapter = {
         "فِي",
         "الْبِئْرِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s2_b1",
           "span": [
@@ -293,45 +293,6 @@ export const chapter18: Chapter = {
           "category": "marfooat"
         },
         {
-          "id": "s2_c18_s2_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "فِعْلٌ وَفَاعِلٌ"
-          ],
-          "category": "afal_tammah",
-          "sarf": {
-            "family": 4,
-            "person": "3rd",
-            "number": "plural",
-            "gender": "masc"
-          }
-        },
-        {
-          "id": "s2_c18_s2_b8",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s2_c18_s2_b9",
-          "span": [
-            8,
-            9
-          ],
-          "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ"
-          ],
-          "category": "tarkib_jumla"
-        },
-        {
           "id": "s2_c18_s2_b10",
           "span": [
             6,
@@ -340,7 +301,48 @@ export const chapter18: Chapter = {
           "roles": [
             "صِلَةُ الْمَوْصُولِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c18_s2_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "فِعْلٌ وَفَاعِلٌ"
+              ],
+              "category": "afal_tammah",
+              "sarf": {
+                "family": 4,
+                "person": "3rd",
+                "number": "plural",
+                "gender": "masc"
+              }
+            },
+            {
+              "id": "s2_c18_s2_b8",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s2_c18_s2_b9",
+              "span": [
+                8,
+                9
+              ],
+              "roles": [
+                "مُتَعَلِّقٌ بِالْفِعْلِ"
+              ],
+              "category": "tarkib_jumla"
+            }
+          ]
         }
       ]
     },
@@ -365,7 +367,7 @@ export const chapter18: Chapter = {
         "حَفِظَـ",
         "ـهُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s3_b1",
           "span": [
@@ -425,51 +427,6 @@ export const chapter18: Chapter = {
           "category": "marfooat"
         },
         {
-          "id": "s2_c18_s3_b6",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "فِعْلٌ مَاضٍ نَاقِصٌ"
-          ],
-          "category": "afal_naqisah"
-        },
-        {
-          "id": "s2_c18_s3_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ",
-            "خَبَرُ كَانَ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s2_c18_s3_b8",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s2_c18_s3_b9",
-          "span": [
-            8,
-            8
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "s2_c18_s3_b10",
           "span": [
             5,
@@ -478,7 +435,54 @@ export const chapter18: Chapter = {
           "roles": [
             "صِلَةُ الْمَوْصُولِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c18_s3_b6",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "فِعْلٌ مَاضٍ نَاقِصٌ"
+              ],
+              "category": "afal_naqisah"
+            },
+            {
+              "id": "s2_c18_s3_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ",
+                "خَبَرُ كَانَ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s2_c18_s3_b8",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s2_c18_s3_b9",
+              "span": [
+                8,
+                8
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         },
         {
           "id": "s2_c18_s3_b11",
@@ -557,7 +561,7 @@ export const chapter18: Chapter = {
         "يَفْضَحْـ",
         "ـهُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s4_b1",
           "span": [
@@ -700,7 +704,7 @@ export const chapter18: Chapter = {
         "أَيْنَ",
         "أَنْتُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s5_b1",
           "span": [
@@ -786,29 +790,6 @@ export const chapter18: Chapter = {
           "category": "tarkib_jumla"
         },
         {
-          "id": "s2_c18_s5_b8",
-          "span": [
-            8,
-            9
-          ],
-          "roles": [
-            "شِبْهُ جُمْلَةٍ (خَبَرٌ مُقَدَّمٌ)"
-          ],
-          "category": "tarkib_jumla"
-        },
-        {
-          "id": "s2_c18_s5_b9",
-          "span": [
-            10,
-            10
-          ],
-          "roles": [
-            "ضَمِيرٌ مُنْفَصِلٌ",
-            "مُبْتَدَأٌ مُؤَخَّرٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
           "id": "s2_c18_s5_b10",
           "span": [
             8,
@@ -817,7 +798,32 @@ export const chapter18: Chapter = {
           "roles": [
             "مَقُولُ الْقَوْلِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c18_s5_b8",
+              "span": [
+                8,
+                9
+              ],
+              "roles": [
+                "شِبْهُ جُمْلَةٍ (خَبَرٌ مُقَدَّمٌ)"
+              ],
+              "category": "tarkib_jumla"
+            },
+            {
+              "id": "s2_c18_s5_b9",
+              "span": [
+                10,
+                10
+              ],
+              "roles": [
+                "ضَمِيرٌ مُنْفَصِلٌ",
+                "مُبْتَدَأٌ مُؤَخَّرٌ"
+              ],
+              "category": "marfooat"
+            }
+          ]
         }
       ]
     },
@@ -831,7 +837,7 @@ export const chapter18: Chapter = {
         "مِنْ",
         "كَنْعَانَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s6_b1",
           "span": [
@@ -844,28 +850,6 @@ export const chapter18: Chapter = {
           "category": "afal_tammah"
         },
         {
-          "id": "s2_c18_s6_b2",
-          "span": [
-            1,
-            1
-          ],
-          "roles": [
-            "حَرْفُ جَرٍّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s2_c18_s6_b3",
-          "span": [
-            2,
-            2
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "s2_c18_s6_b4",
           "span": [
             1,
@@ -875,7 +859,31 @@ export const chapter18: Chapter = {
             "مَقُولُ الْقَوْلِ"
           ],
           "category": "tarkib_jumla",
-          "taqdeer": "نَحْنُ مِنْ كَنْعَانَ"
+          "taqdeer": "نَحْنُ مِنْ كَنْعَانَ",
+          "children": [
+            {
+              "id": "s2_c18_s6_b2",
+              "span": [
+                1,
+                1
+              ],
+              "roles": [
+                "حَرْفُ جَرٍّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s2_c18_s6_b3",
+              "span": [
+                2,
+                2
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            }
+          ]
         }
       ]
     },
@@ -890,7 +898,7 @@ export const chapter18: Chapter = {
         "أَبُو",
         "ـكُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s7_b1",
           "span": [
@@ -903,39 +911,6 @@ export const chapter18: Chapter = {
           "category": "afal_tammah"
         },
         {
-          "id": "s2_c18_s7_b2",
-          "span": [
-            1,
-            1
-          ],
-          "roles": [
-            "خَبَرٌ"
-          ],
-          "category": "tarkib_jumla"
-        },
-        {
-          "id": "s2_c18_s7_b3",
-          "span": [
-            2,
-            2
-          ],
-          "roles": [
-            "مُبْتَدَأٌ مُؤَخَّرٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "s2_c18_s7_b4",
-          "span": [
-            3,
-            3
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
           "id": "s2_c18_s7_b5",
           "span": [
             1,
@@ -944,7 +919,42 @@ export const chapter18: Chapter = {
           "roles": [
             "مَقُولُ الْقَوْلِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c18_s7_b2",
+              "span": [
+                1,
+                1
+              ],
+              "roles": [
+                "خَبَرٌ"
+              ],
+              "category": "tarkib_jumla"
+            },
+            {
+              "id": "s2_c18_s7_b3",
+              "span": [
+                2,
+                2
+              ],
+              "roles": [
+                "مُبْتَدَأٌ مُؤَخَّرٌ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "s2_c18_s7_b4",
+              "span": [
+                3,
+                3
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            }
+          ]
         }
       ]
     },
@@ -964,7 +974,7 @@ export const chapter18: Chapter = {
         "ـهِمُ",
         "السَّلَامُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s8_b1",
           "span": [
@@ -1070,7 +1080,7 @@ export const chapter18: Chapter = {
         "أَخٌ",
         "آخَرُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s9_b1",
           "span": [
@@ -1083,50 +1093,6 @@ export const chapter18: Chapter = {
           "category": "afal_tammah"
         },
         {
-          "id": "s2_c18_s9_b2",
-          "span": [
-            1,
-            1
-          ],
-          "roles": [
-            "حَرْفُ اسْتِفْهَامٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s2_c18_s9_b3",
-          "span": [
-            2,
-            3
-          ],
-          "roles": [
-            "شِبْهُ جُمْلَةٍ (خَبَرٌ مُقَدَّمٌ)"
-          ],
-          "category": "tarkib_jumla"
-        },
-        {
-          "id": "s2_c18_s9_b4",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "مُبْتَدَأٌ مُؤَخَّرٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "s2_c18_s9_b5",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "صِفَةٌ (نَعْتٌ)"
-          ],
-          "category": "tawabi"
-        },
-        {
           "id": "s2_c18_s9_b6",
           "span": [
             1,
@@ -1135,7 +1101,53 @@ export const chapter18: Chapter = {
           "roles": [
             "مَقُولُ الْقَوْلِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c18_s9_b2",
+              "span": [
+                1,
+                1
+              ],
+              "roles": [
+                "حَرْفُ اسْتِفْهَامٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s2_c18_s9_b3",
+              "span": [
+                2,
+                3
+              ],
+              "roles": [
+                "شِبْهُ جُمْلَةٍ (خَبَرٌ مُقَدَّمٌ)"
+              ],
+              "category": "tarkib_jumla"
+            },
+            {
+              "id": "s2_c18_s9_b4",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "مُبْتَدَأٌ مُؤَخَّرٌ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "s2_c18_s9_b5",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "صِفَةٌ (نَعْتٌ)"
+              ],
+              "category": "tawabi"
+            }
+          ]
         }
       ]
     },
@@ -1154,7 +1166,7 @@ export const chapter18: Chapter = {
         "ـهُ",
         "بِنْيَامِينُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s10_b1",
           "span": [
@@ -1200,39 +1212,6 @@ export const chapter18: Chapter = {
           "category": "marfooat"
         },
         {
-          "id": "s2_c18_s10_b5",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "مُبْتَدَأٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "s2_c18_s10_b6",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s2_c18_s10_b7",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "فَاعِلٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
           "id": "s2_c18_s10_b8",
           "span": [
             5,
@@ -1241,7 +1220,42 @@ export const chapter18: Chapter = {
           "roles": [
             "جُمْلَةٌ اسْمِيَّةٌ"
           ],
-          "category": "tawabi"
+          "category": "tawabi",
+          "children": [
+            {
+              "id": "s2_c18_s10_b5",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "مُبْتَدَأٌ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "s2_c18_s10_b6",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s2_c18_s10_b7",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "فَاعِلٌ"
+              ],
+              "category": "marfooat"
+            }
+          ]
         }
       ]
     },
@@ -1259,7 +1273,7 @@ export const chapter18: Chapter = {
         "مَعَـ",
         "ـكُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s11_b1",
           "span": [
@@ -1272,51 +1286,6 @@ export const chapter18: Chapter = {
           "category": "afal_tammah"
         },
         {
-          "id": "s2_c18_s11_b2",
-          "span": [
-            1,
-            2
-          ],
-          "roles": [
-            "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
-          ],
-          "category": "majroorat"
-        },
-        {
-          "id": "s2_c18_s11_b3",
-          "span": [
-            3,
-            3
-          ],
-          "roles": [
-            "حَرْفُ نَفْيٍ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s2_c18_s11_b4",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "فِعْلٌ مَاضٍ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s2_c18_s11_b5",
-          "span": [
-            5,
-            6
-          ],
-          "roles": [
-            "مَفْعُولٌ فِيهِ (ظَرْفُ مَكَانٍ)",
-            "مُضَافٌ إِلَيْهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
           "id": "s2_c18_s11_b6",
           "span": [
             1,
@@ -1325,7 +1294,54 @@ export const chapter18: Chapter = {
           "roles": [
             "مَقُولُ الْقَوْلِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c18_s11_b2",
+              "span": [
+                1,
+                2
+              ],
+              "roles": [
+                "اِسْمٌ مَجْرُورٌ (بِحَرْفِ الْجَرِّ)"
+              ],
+              "category": "majroorat"
+            },
+            {
+              "id": "s2_c18_s11_b3",
+              "span": [
+                3,
+                3
+              ],
+              "roles": [
+                "حَرْفُ نَفْيٍ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s2_c18_s11_b4",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "فِعْلٌ مَاضٍ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s2_c18_s11_b5",
+              "span": [
+                5,
+                6
+              ],
+              "roles": [
+                "مَفْعُولٌ فِيهِ (ظَرْفُ مَكَانٍ)",
+                "مُضَافٌ إِلَيْهِ"
+              ],
+              "category": "mansoobat"
+            }
+          ]
         }
       ]
     },
@@ -1351,7 +1367,7 @@ export const chapter18: Chapter = {
         "عَنْـ",
         "ـهُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s12_b1",
           "span": [
@@ -1471,39 +1487,6 @@ export const chapter18: Chapter = {
           }
         },
         {
-          "id": "s2_c18_s12_b11",
-          "span": [
-            11,
-            11
-          ],
-          "roles": [
-            "حَرْفٌ مَصْدَرِيٌّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s2_c18_s12_b12",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s2_c18_s12_b13",
-          "span": [
-            13,
-            14
-          ],
-          "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ"
-          ],
-          "category": "tarkib_jumla"
-        },
-        {
           "id": "s2_c18_s12_b14",
           "span": [
             11,
@@ -1513,7 +1496,42 @@ export const chapter18: Chapter = {
             "مَصْدَرٌ مُؤَوَّلٌ",
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "mansoobat"
+          "category": "mansoobat",
+          "children": [
+            {
+              "id": "s2_c18_s12_b11",
+              "span": [
+                11,
+                11
+              ],
+              "roles": [
+                "حَرْفٌ مَصْدَرِيٌّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s2_c18_s12_b12",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s2_c18_s12_b13",
+              "span": [
+                13,
+                14
+              ],
+              "roles": [
+                "مُتَعَلِّقٌ بِالْفِعْلِ"
+              ],
+              "category": "tarkib_jumla"
+            }
+          ]
         }
       ]
     },
@@ -1536,7 +1554,7 @@ export const chapter18: Chapter = {
         "صَغِيرٌ",
         "جِدًّا"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s13_b1",
           "span": [
@@ -1695,7 +1713,7 @@ export const chapter18: Chapter = {
         "ـهُ",
         "الذِّئْبُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s14_b1",
           "span": [
@@ -1994,7 +2012,7 @@ export const chapter18: Chapter = {
         "ـهِ",
         "بِنْيَامِينَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s15_b1",
           "span": [
@@ -2168,7 +2186,7 @@ export const chapter18: Chapter = {
         "بِـ",
         "ـالطَّعَامِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s16_b1",
           "span": [
@@ -2209,61 +2227,6 @@ export const chapter18: Chapter = {
           "category": "marfooat"
         },
         {
-          "id": "s2_c18_s16_b4",
-          "span": [
-            3,
-            3
-          ],
-          "roles": [
-            "حَرْفٌ مَصْدَرِيٌّ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s2_c18_s16_b5",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "فِعْلٌ مُضَارِعٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s2_c18_s16_b6",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s2_c18_s16_b7",
-          "span": [
-            6,
-            6
-          ],
-          "roles": [
-            "مَفْعُولٌ مُطْلَقٌ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s2_c18_s16_b8",
-          "span": [
-            7,
-            7
-          ],
-          "roles": [
-            "صِفَةٌ (نَعْتٌ)"
-          ],
-          "category": "tawabi"
-        },
-        {
           "id": "s2_c18_s16_b9",
           "span": [
             3,
@@ -2273,7 +2236,64 @@ export const chapter18: Chapter = {
             "مَصْدَرٌ مُؤَوَّلٌ",
             "مَفْعُولٌ بِهِ"
           ],
-          "category": "mansoobat"
+          "category": "mansoobat",
+          "children": [
+            {
+              "id": "s2_c18_s16_b4",
+              "span": [
+                3,
+                3
+              ],
+              "roles": [
+                "حَرْفٌ مَصْدَرِيٌّ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s2_c18_s16_b5",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "فِعْلٌ مُضَارِعٌ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s2_c18_s16_b6",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s2_c18_s16_b7",
+              "span": [
+                6,
+                6
+              ],
+              "roles": [
+                "مَفْعُولٌ مُطْلَقٌ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s2_c18_s16_b8",
+              "span": [
+                7,
+                7
+              ],
+              "roles": [
+                "صِفَةٌ (نَعْتٌ)"
+              ],
+              "category": "tawabi"
+            }
+          ]
         },
         {
           "id": "s2_c18_s16_b10",
@@ -2352,7 +2372,7 @@ export const chapter18: Chapter = {
         "أَبِيـ",
         "ـكُمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s17_b1",
           "span": [
@@ -2387,61 +2407,6 @@ export const chapter18: Chapter = {
           "category": "tarkib_jumla"
         },
         {
-          "id": "s2_c18_s17_b4",
-          "span": [
-            4,
-            4
-          ],
-          "roles": [
-            "فِعْلٌ وَفَاعِلٌ"
-          ],
-          "category": "afal_tammah"
-        },
-        {
-          "id": "s2_c18_s17_b5",
-          "span": [
-            5,
-            5
-          ],
-          "roles": [
-            "مَفْعُولٌ بِهِ"
-          ],
-          "category": "mansoobat"
-        },
-        {
-          "id": "s2_c18_s17_b6",
-          "span": [
-            6,
-            7
-          ],
-          "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ"
-          ],
-          "category": "tarkib_jumla"
-        },
-        {
-          "id": "s2_c18_s17_b7",
-          "span": [
-            8,
-            9
-          ],
-          "roles": [
-            "صِفَةٌ (نَعْتٌ)"
-          ],
-          "category": "tawabi"
-        },
-        {
-          "id": "s2_c18_s17_b8",
-          "span": [
-            10,
-            12
-          ],
-          "roles": [
-            "صِفَةٌ (نَعْتٌ)"
-          ],
-          "category": "tawabi"
-        },
-        {
           "id": "s2_c18_s17_b9",
           "span": [
             4,
@@ -2450,7 +2415,64 @@ export const chapter18: Chapter = {
           "roles": [
             "مَقُولُ الْقَوْلِ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c18_s17_b4",
+              "span": [
+                4,
+                4
+              ],
+              "roles": [
+                "فِعْلٌ وَفَاعِلٌ"
+              ],
+              "category": "afal_tammah"
+            },
+            {
+              "id": "s2_c18_s17_b5",
+              "span": [
+                5,
+                5
+              ],
+              "roles": [
+                "مَفْعُولٌ بِهِ"
+              ],
+              "category": "mansoobat"
+            },
+            {
+              "id": "s2_c18_s17_b6",
+              "span": [
+                6,
+                7
+              ],
+              "roles": [
+                "مُتَعَلِّقٌ بِالْفِعْلِ"
+              ],
+              "category": "tarkib_jumla"
+            },
+            {
+              "id": "s2_c18_s17_b7",
+              "span": [
+                8,
+                9
+              ],
+              "roles": [
+                "صِفَةٌ (نَعْتٌ)"
+              ],
+              "category": "tawabi"
+            },
+            {
+              "id": "s2_c18_s17_b8",
+              "span": [
+                10,
+                12
+              ],
+              "roles": [
+                "صِفَةٌ (نَعْتٌ)"
+              ],
+              "category": "tawabi"
+            }
+          ]
         }
       ]
     },
@@ -2470,7 +2492,7 @@ export const chapter18: Chapter = {
         "بِـ",
         "ـهِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s18_b1",
           "span": [
@@ -2580,7 +2602,7 @@ export const chapter18: Chapter = {
         "مَتَاعِـ",
         "ـهِمْ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c18_s19_b1",
           "span": [

@@ -24,7 +24,7 @@ export const chapter17: Chapter = {
         "أَخْبَرَ",
         "يُوسُفُ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s1_b1",
           "span": [
@@ -103,45 +103,6 @@ export const chapter17: Chapter = {
           "category": "huruf"
         },
         {
-          "id": "s2_c17_s1_b8",
-          "span": [
-            8,
-            8
-          ],
-          "roles": [
-            "مَصْدَرِيَّةٌ"
-          ],
-          "category": "huruf"
-        },
-        {
-          "id": "s2_c17_s1_b9",
-          "span": [
-            9,
-            9
-          ],
-          "roles": [
-            "فِعْلٌ مَاضٍ"
-          ],
-          "category": "afal_tammah",
-          "sarf": {
-            "family": 4,
-            "person": "3rd",
-            "number": "singular",
-            "gender": "masc"
-          }
-        },
-        {
-          "id": "s2_c17_s1_b10",
-          "span": [
-            10,
-            10
-          ],
-          "roles": [
-            "فَاعِلٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
           "id": "s2_c17_s1_b11",
           "span": [
             8,
@@ -150,7 +111,48 @@ export const chapter17: Chapter = {
           "roles": [
             "مَصْدَرٌ مُؤَوَّلٌ"
           ],
-          "category": "majroorat"
+          "category": "majroorat",
+          "children": [
+            {
+              "id": "s2_c17_s1_b8",
+              "span": [
+                8,
+                8
+              ],
+              "roles": [
+                "مَصْدَرِيَّةٌ"
+              ],
+              "category": "huruf"
+            },
+            {
+              "id": "s2_c17_s1_b9",
+              "span": [
+                9,
+                9
+              ],
+              "roles": [
+                "فِعْلٌ مَاضٍ"
+              ],
+              "category": "afal_tammah",
+              "sarf": {
+                "family": 4,
+                "person": "3rd",
+                "number": "singular",
+                "gender": "masc"
+              }
+            },
+            {
+              "id": "s2_c17_s1_b10",
+              "span": [
+                10,
+                10
+              ],
+              "roles": [
+                "فَاعِلٌ"
+              ],
+              "category": "marfooat"
+            }
+          ]
         }
       ]
     },
@@ -184,7 +186,7 @@ export const chapter17: Chapter = {
         "خَزَائِنِ",
         "الْأَرْضِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s2_b1",
           "span": [
@@ -426,7 +428,7 @@ export const chapter17: Chapter = {
         "بِـ",
         "ـالطَّعَامِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s3_b1",
           "span": [
@@ -673,7 +675,7 @@ export const chapter17: Chapter = {
         "عَلَى",
         "يُوسُفَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s4_b1",
           "span": [
@@ -1048,7 +1050,7 @@ export const chapter17: Chapter = {
         "فِي",
         "الْبِئْرِ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s5_b1",
           "span": [
@@ -1508,7 +1510,7 @@ export const chapter17: Chapter = {
         "الْبِئْرُ",
         "عَمِيقَةً"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s6_b1",
           "span": [
@@ -1593,7 +1595,7 @@ export const chapter17: Chapter = {
         "الْغَابَةُ",
         "مُوحِشَةً"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s7_b1",
           "span": [
@@ -1700,7 +1702,7 @@ export const chapter17: Chapter = {
         "اللَّيْلُ",
         "مُظْلِمًا"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s8_b1",
           "span": [
@@ -1815,7 +1817,7 @@ export const chapter17: Chapter = {
         "ـهُ",
         "مُنْكِرُونَ"
       ],
-      "breakdown": [
+      "tree": [
         {
           "id": "s2_c17_s9_b1",
           "span": [
@@ -1939,40 +1941,6 @@ export const chapter17: Chapter = {
           "category": "huruf"
         },
         {
-          "id": "s2_c17_s9_b12",
-          "span": [
-            12,
-            12
-          ],
-          "roles": [
-            "ضَمِيرٌ مُنْفَصِلٌ",
-            "مُبْتَدَأٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
-          "id": "s2_c17_s9_b13",
-          "span": [
-            13,
-            14
-          ],
-          "roles": [
-            "مُتَعَلِّقٌ بِالْفِعْلِ"
-          ],
-          "category": "tarkib_jumla"
-        },
-        {
-          "id": "s2_c17_s9_b14",
-          "span": [
-            15,
-            15
-          ],
-          "roles": [
-            "فَاعِلٌ"
-          ],
-          "category": "marfooat"
-        },
-        {
           "id": "s2_c17_s9_b15",
           "span": [
             12,
@@ -1982,7 +1950,43 @@ export const chapter17: Chapter = {
             "جُمْلَةٌ اسْمِيَّةٌ",
             "حَالٌ"
           ],
-          "category": "tarkib_jumla"
+          "category": "tarkib_jumla",
+          "children": [
+            {
+              "id": "s2_c17_s9_b12",
+              "span": [
+                12,
+                12
+              ],
+              "roles": [
+                "ضَمِيرٌ مُنْفَصِلٌ",
+                "مُبْتَدَأٌ"
+              ],
+              "category": "marfooat"
+            },
+            {
+              "id": "s2_c17_s9_b13",
+              "span": [
+                13,
+                14
+              ],
+              "roles": [
+                "مُتَعَلِّقٌ بِالْفِعْلِ"
+              ],
+              "category": "tarkib_jumla"
+            },
+            {
+              "id": "s2_c17_s9_b14",
+              "span": [
+                15,
+                15
+              ],
+              "roles": [
+                "فَاعِلٌ"
+              ],
+              "category": "marfooat"
+            }
+          ]
         }
       ]
     }
